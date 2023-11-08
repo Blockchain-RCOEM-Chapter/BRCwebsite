@@ -13,7 +13,7 @@ The project's file structure is organized as follows:
 
 ## Development Guidelines
 
-1. **Collaboration **: This is a shared project. Ensure open communication with other contributors. If you make significant changes, inform the team.
+1. **Collaboration 👥️️**: This is a shared project. Ensure open communication with other contributors. If you make significant changes, inform the team.
 
 2. **Comments 📝**: Add comments in your code wherever necessary for better code readability and understanding.
 
