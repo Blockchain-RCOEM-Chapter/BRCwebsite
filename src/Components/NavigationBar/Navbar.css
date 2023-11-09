@@ -1,0 +1,222 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: BlackFace;
+    src: url('./Fonts/Black\ Future.otf');
+}
+
+nav {
+    width: 100vw;
+    background: url('./images/nav-bg.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    font-family: BlackFace;
+    box-shadow: 0 1px 4px #AA60BD;
+    justify-content: space-between;
+    font-family: Blackface;
+    overflow: hidden;
+}
+
+.logo {
+    background: url('./images/brc\ 1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.right-side {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 1px 1px 2px #c869df;
+
+}
+
+ul {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+ul:hover {
+    cursor: pointer;
+}
+
+.tagline {
+    width: 100%;
+    color: #AA60BD;
+    text-wrap: balance;
+}
+
+@media screen and (min-width:425px) {
+
+    nav {
+        height: 20vh;
+    }
+
+    .fa-solid {
+        display: none;
+    }
+
+    .logo {
+        height: 100%;
+        width: 25%;
+    }
+
+    .right-side {
+        width: 75%;
+    }
+
+    ul {
+        height: 70%;
+        width: 100%;
+        flex-direction: row-reverse;
+    }
+
+    .nav-element {
+        text-align: center;
+        width: 15%;
+        -webkit-text-stroke: 0.7px rgb(255, 255, 255);
+        padding: 1% 1%;
+        margin-right: 2%;
+        border: none;
+        border-radius: 5px;
+        color: #AA60BD;
+        transition: all 800ms;
+        font-size: 1.7em;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .nav-element:hover {
+        -webkit-text-stroke: 0px rgb(255, 255, 255);
+        color: #ffffff;
+        transform: scale(1);
+        box-shadow: 4px 5px 17px -4px #AA60BD;
+    }
+
+    .nav-element:before {
+        content: "";
+        position: absolute;
+        left: -50px;
+        top: 0;
+        width: 0;
+        height: 100%;
+        background-color: #AA60BD;
+        transform: skewX(45deg);
+        z-index: -1;
+        transition: width 1000ms;
+    }
+
+    .nav-element:hover::before {
+        width: 250%;
+    }
+
+
+    .tagline {
+        font-size: 1.7em;
+        -webkit-text-stroke: 1px white;
+    }
+}
+
+@media screen and (max-width:425px) {
+    nav {
+        height: 10vh;
+    }
+
+    ul li i {
+        font-size: 15px;
+        margin: 0px 5px;
+    }
+
+    .logo {
+        height: 100%;
+        width: 20%;
+    }
+
+    .right-side {
+        width: 65%;
+    }
+
+    ul {
+        height: 100vh;
+        width: 50vw;
+        position: fixed;
+        top: 0;
+        right: 0;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        background-color: #9856a8bd;
+        font-size: 1em;
+        padding-top: 3.5em;
+        transition: right 1s ease-in-out;
+        box-shadow: -5px 0px 5px #3a2140bd;
+    }
+
+    ul li {
+        margin-top: 1em;
+        border: 1px solid black;
+        width: 80%;
+        padding: 5px;
+        border-radius: 7px;
+        background-color: #64386e;
+        color: white;
+        letter-spacing: 1px;
+        box-shadow: 2px 2px 2px #3f2246;
+        overflow: hidden;
+    }
+
+
+    .tagline {
+        height: 100%;
+        font-size: 1.2em;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        -webkit-text-stroke: 0.3px rgb(255, 255, 255);
+    }
+
+    .burger {
+        width: 15%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        z-index: 999;
+    }
+
+    .burger div {
+        border: 1px solid #56305f;
+        width: 50%;
+        margin: 3px 0px;
+        transition: all 0.7s ease-in-out;
+        overflow: hidden;
+    }
+
+}
+
+@media only screen and (min-width:425px) and (max-width:780px) {
+    ul li {
+        font-size: 1.2em;
+    }
+
+    .tagline {
+        font-size: 1.2em;
+    }
+}
+
+
+.active {
+    background-color: #3f2246;
+}
