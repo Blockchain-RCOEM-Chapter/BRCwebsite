@@ -1,0 +1,132 @@
+.FAQ {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-bottom: 2em;
+    padding: 5em 0px;
+
+}
+
+.questions-container {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.questions-container div {
+    padding: 1em;
+    width: 240px;
+    border-radius: 10px;
+    margin: 2em;
+    transition: all 400ms ease-in-out;
+    background: rgba(53, 53, 53, 0.293);
+    font-family: 'Inter', sans-serif;
+
+}
+
+.questions-container div p {
+    color: lightgray;
+}
+
+#question1 {
+    border: 2px solid green;
+    transform: translateY(-20%);
+}
+
+#question1:hover {
+    transform: translateY(-20%) scale(1.1);
+    box-shadow: 3px 3px 10px rgb(52, 219, 52);
+}
+
+
+#question2 {
+    border: 2px solid rgb(0, 132, 255);
+    transform: translateY(20%);
+}
+
+#question2:hover {
+    transform: translateY(20%) scale(1.1);
+    box-shadow: 3px 3px 10px rgb(103, 182, 255);
+}
+
+#question3 {
+    border: 2px solid orange;
+    transform: translateY(-20%);
+}
+
+#question3:hover {
+    transform: translateY(-20%) scale(1.1);
+    box-shadow: 3px 3px 10px rgb(255, 197, 88);
+}
+
+#question4 {
+    border: 2px solid purple;
+    transform: translateY(20%);
+}
+
+#question4:hover {
+    transform: translateY(20%) scale(1.1);
+    box-shadow: 3px 3px 10px rgb(225, 19, 225);
+}
+
+@media screen and (max-width:780px) {
+    .questions-container {
+        flex-direction: column;
+
+    }
+
+    .FAQ {
+        padding: 0em 0px;
+    }
+
+    #question1 {
+        border: 2px solid green;
+        transform: translateX(-10%);
+    }
+
+    #question1:hover {
+        transform: translateX(-10%) scale(1.1);
+        box-shadow: 3px 3px 10px rgb(52, 219, 52);
+    }
+
+
+    #question2 {
+        border: 2px solid rgb(0, 132, 255);
+        transform: translateX(10%);
+    }
+
+    #question2:hover {
+        transform: translateX(10%) scale(1.1);
+        box-shadow: 3px 3px 10px rgb(103, 182, 255);
+    }
+
+    #question3 {
+        border: 2px solid orange;
+        transform: translateX(-10%);
+    }
+
+    #question3:hover {
+        transform: translateX(-10%) scale(1.1);
+        box-shadow: 3px 3px 10px rgb(255, 197, 88);
+    }
+
+    #question4 {
+        border: 2px solid purple;
+        transform: translateX(10%);
+    }
+
+    #question4:hover {
+        transform: translateX(10%) scale(1.1);
+        box-shadow: 3px 3px 10px rgb(225, 19, 225);
+    }
+
+
+
+
+
+
+}

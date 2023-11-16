@@ -1,0 +1,82 @@
+.Home-domain {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5vh;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.domain-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 35px;
+    transition: all 1s ease;
+}
+
+.domain-section div {
+    height: 234.375px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.domain-section p {
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+#tech {
+    background: url('../Images/tech-team.png');
+    background-size: cover;
+}
+
+#graphics {
+    background: url('../Images/graphics-team.png');
+    background-size: cover;
+
+}
+
+#social {
+    background: url('../Images/social-media-team.png');
+    background-size: cover;
+
+}
+
+#marketing {
+    background: url('../Images/marketing-team.png');
+    background-size: cover;
+
+}
+
+#event {
+    background: url('../Images/events-team.png');
+    background-size: cover;
+
+}
+
+#video {
+    background: url('../Images/video-editor-team.png');
+    background-size: cover;
+
+}
+
+#content {
+    background: url('../Images/content-team.png');
+    background-size: cover;
+
+}
+
+@media screen and (max-width:480px) {
+    .domain-section div {
+        height: 117.1875px;
+        width: 125px;
+    }
+
+    .domain-section {
+        margin: 10px 0px;
+    }
+
+}

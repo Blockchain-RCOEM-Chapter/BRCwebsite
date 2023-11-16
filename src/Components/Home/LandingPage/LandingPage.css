@@ -1,0 +1,103 @@
+.LandingPage {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#headlines {
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 7px solid #652efa;
+    margin: 0.5em 0px;
+    font-family: 'Inter', sans-serif;
+    padding: 0px 1em;
+}
+
+#headlines p {
+    margin: 15px 0px;
+}
+
+.rcoem {
+    text-align: center;
+    text-wrap: balance;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+#brc-logo {
+    width: 15%;
+    animation: rotate 30s infinite linear;
+}
+
+.join-community-btn {
+    font-size: 1.3em;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #8256FF;
+    text-align: center;
+    transition: all 1s ease-in-out;
+    box-shadow: 2px 2px 5px black;
+}
+
+.join-community-btn:hover {
+    background-color: #652efa;
+    box-shadow: 2px 2px 7px black;
+    transform: scale(1.1);
+}
+
+
+.join-community-btn i {
+    display: inline;
+}
+
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+@media screen and (max-width:780px) {
+    .rcoem {
+        font-size: 0.7em;
+    }
+
+    #brc-logo {
+        width: 25%;
+    }
+
+    #headlines {
+        font-size: 2em;
+        display: flex;
+        border: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 0.5em 0px;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    #brc-logo {
+        width: 35%;
+    }
+}

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.Home {
+    width: 100%;
+    margin-top: 10vh;
+    background: url('./Images/home-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 5em;
+}
+
+.our-home-heading {
+    font-family: 'Inter', sans-serif;
+    border-left: 7px solid #5109AD;
+    color: white;
+    margin: 1em 2em;
+    padding-left: 0.7em;
+}
+
+.our-home-btn {
+    font-size: 1.3em;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #8256FF;
+    text-align: center;
+    transition: all 1s ease-in-out;
+    display: block;
+    box-shadow: 2px 2px 5px black;
+    margin: auto;
+}
+
+.our-home-btn i {
+    display: inline;
+}
+
+.our-home-btn:hover {
+    background-color: #652efa;
+    box-shadow: 2px 2px 7px black;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:480px) {
+    .our-home-heading {
+        margin: 2em 1em;
+    }
+}

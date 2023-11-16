@@ -1,0 +1,38 @@
+{
+  "aboutus": {
+    "whatIsBrc": [
+      "The Blockchain RCOEM Chapter is a dynamic, student-driven initiative fostering a culture of decentralized development and blockchain programming at Shree Ramdeobaba College of Engineering and Management. Serving as a dedicated platform, the chapter empowers students with hands-on experience in the rapidly evolving field of web3 development.",
+      "BRC has organized numerous icebreaking events, with Cohorts standing out as one of the most popular initiatives. Through Cohorts, we have successfully guided many students in initiating their journey into web3 development. Notably, our team includes several hackathon winners, further exemplifying our commitment to excellence and skill development within the blockchain space."
+    ],
+    "ourGoals": "The Blockchain RCOEM Chapter is committed to empowering students in web3 development by bridging the theory-application gap through practical experiences and essential skills. We actively seek industry partnerships for internships, job opportunities, and funding, ensuring real-world applicability for student-led web3 projects.",
+    "whyBrc": "As the catalyst for Web3 adoption, the Blockchain RCOEM Chapter fosters innovation and collaboration at Shree Ramdeobaba College of Engineering and Management. Our dedication to blockchain education and research creates an environment that encourages creativity among students. Joining BRC means being part of a community revolutionizing technology and innovation in the ever-evolving web3 landscape."
+  },
+  "events": {
+    "event1": [
+      "Event Name",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sint accusantium culpa maiores voluptatibus est! Nesciunt, minus odio qui odit nisi asperiores fuga animi ullam cum maiores excepturi consequuntur voluptas!"
+    ],
+    "event2": [
+      "Event Name",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sint accusantium culpa maiores voluptatibus est! Nesciunt, minus odio qui odit nisi asperiores fuga animi ullam cum maiores excepturi consequuntur voluptas!"
+    ]
+  },
+  "faq": {
+    "question1": [
+      "Who can become a member?",
+      "The clubs is open to any student, ranging from novice developers who are just starting, to advanced developers who want to further their skills."
+    ],
+    "question2": [
+      "How frequently do events and workshops occur?",
+      "We have a hands-on session every month. We also hold workshops and showcases & we would recommend you to join our community to get updates."
+    ],
+    "question3": [
+      "What should I carry when attending a workshop?",
+      "We recommend you carry with you a notebook, pen and a laptop because more often than not we make our hands dirty with code. Most importantly, carry along a healthy dose of curiosity and enthusiasm"
+    ],
+    "question4": [
+      "Who should I reach out to if I have any questions?",
+      "If you have any questions or comments, please don't hesitate to contact us by clicking the button below. We would be happy to stay engaged via email even after the event"
+    ]
+  }
+}

@@ -1,5 +1,20 @@
+import Navbar from "./Components/NavigationBar/Navbar";
+import Home from "./Components/Home/Home";
+import Footer from "./Components/Footer/Footer";
+
+
+
 function App() {
-  return <></>;
+     
+  return (
+    <>
+        <Navbar />
+        <Home />
+        <Footer />
+
+    </>
+  );
 }
 
 export default App;
+
