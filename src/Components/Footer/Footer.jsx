@@ -25,6 +25,7 @@ function Footer() {
     "https://drive.google.com/uc?id=1BQA3NwkOy5lGoTFVrS5SkFBHbS9t6VHT",
     "https://drive.google.com/uc?id=1BjTpKjt9-rdeBCmax_VTcmb8DKcucr5C",
     "https://drive.google.com/uc?id=1BNApCoqrQ6LTX2f9A7HoFb9tujM8_7Sf",
+    "https://drive.google.com/uc?id=1BPJaoz8yWnmI_fqclg7H--GR8Wbhzm9j",
   ];
 
   //  Devloped By Carousel Logic
@@ -44,10 +45,11 @@ function Footer() {
       <div
         key={index}
         style={
-          counter === 0
+          counter === 1
             ? {
                 background: `url('${link}')`,
                 transform: `translateX(${-1 * counter * 100}%)`,
+                transition: "transform 0s ease",
               }
             : {
                 background: `url('${link}')`,
