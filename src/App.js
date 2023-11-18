@@ -1,7 +1,7 @@
 import Navbar from "./Components/NavigationBar/Navbar";
 import Home from "./Components/Home/Home";
 import Footer from "./Components/Footer/Footer";
-
+import Contact from "./Components/Contact/Contact";
 
 
 function App() {
@@ -11,6 +11,10 @@ function App() {
         <Navbar />
         <Home />
         <Footer />
+
+        <Contact />
+  <Navbar />
+ <Footer />
 
     </>
   );

@@ -1,0 +1,53 @@
+.Contact {
+    width: 100vw;
+    margin-top: 10vh;
+    background: url('./Images/back\ .jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 5em;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+.heading {
+    font-family: 'Inter', sans-serif;
+    border-left: 7px solid #5109AD;
+    color: white;
+    margin: 2em 5em;
+    padding-left: 0.7em;
+    font-size: 70px;
+    margin-left: 401px;
+    
+}
+@media (max-width: 600px) {
+    .Contact{
+        overflow: hidden;
+    }
+    /*.heading{
+        width:max-content;
+        left: 0px;
+        text-align: center;
+        font-size: 3em;
+        font-weight: 1000px;
+        font: 1.5em sans-serif;
+        padding:4px;
+        border-left: 4px;
+    }*/
+    .heading{
+        
+        width: max-content;
+        padding-right: 0px;
+        text-align: center;
+        font-size: 0.1rem;
+    font-weight:100vw;
+    margin-left: 21px;
+    
+    }
+
+    .contacttext{
+        font-size: 48px;
+        margin-left: 10px
+    }
+
+    }
+   
