@@ -165,12 +165,9 @@ footer {
     border-radius: 10px;
 }
 
-.developers-carousel div {
+.developers-carousel img {
     height: 100%;
     min-width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 @media screen and (max-width:480px) {
@@ -216,7 +213,6 @@ footer {
 
     .phonesized-devlopedby span {
         color: rgb(255, 179, 0);
-        border-right: 2px solid white;
         padding-right: 2px;
     }
 

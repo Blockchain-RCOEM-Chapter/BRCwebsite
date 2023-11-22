@@ -9,14 +9,10 @@ function RecentEvents() {
         <div className="event-details">
           <h2>{Data["events"]["event1"][0]}</h2>
           <p>{Data["events"]["event1"][1]}</p>
+          <button data-label="Register Now" className="rainbow-hover">
+            <span className="sp">Register Now</span>
+          </button>
         </div>
-      </div>
-      <div id="event2">
-        <div className="event-details">
-          <h2>{Data["events"]["event2"][0]}</h2>
-          <p>{Data["events"]["event2"][1]}</p>
-        </div>
-        <div className="event-img2"></div>
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 function Navbar() {
@@ -27,62 +28,83 @@ function Navbar() {
           isPhone ? (isBurgerActive ? { right: "0px" } : { right: "-62%" }) : {}
         }
       >
-        <li
-          style={
-            isPhone
-              ? isBurgerActive
-                ? { transform: `translateX(0%)` }
-                : { transform: `translateX(${100 * ++counter}%)` }
-              : {}
-          }
-        >
-          <i className="fa-solid fa-house" style={{ color: "#ffffff" }}></i>HOME
-        </li>
-        <li
-          style={
-            isPhone
-              ? isBurgerActive
-                ? { transform: `translateX(0%)` }
-                : { transform: `translateX(${100 * ++counter}%)` }
-              : {}
-          }
-        >
-          <i
-            className="fa-solid fa-calendar-check"
-            style={{ color: "#ffffff" }}
-          ></i>
-          EVENTS
-        </li>
-        <li
-          style={
-            isPhone
-              ? isBurgerActive
-                ? { transform: `translateX(0%)` }
-                : { transform: `translateX(${100 * ++counter}%)` }
-              : {}
-          }
-        >
-          <i
-            className="fa-solid fa-people-group"
-            style={{ color: "#ffffff" }}
-          ></i>
-          TEAM
-        </li>
-        <li
-          style={
-            isPhone
-              ? isBurgerActive
-                ? { transform: `translateX(0%)` }
-                : { transform: `translateX(${100 * ++counter}%)` }
-              : {}
-          }
-        >
-          <i
-            className="fa-solid fa-address-book"
-            style={{ color: "#ffffff" }}
-          ></i>
-          CONTACT US
-        </li>
+        <Link to="/">
+          <li
+            onClick={() => {
+              setisBurgerActive(false);
+            }}
+            style={
+              isPhone
+                ? isBurgerActive
+                  ? { transform: `translateX(0%)` }
+                  : { transform: `translateX(${100 * ++counter}%)` }
+                : {}
+            }
+          >
+            <i className="fa-solid fa-house" style={{ color: "#ffffff" }}></i>
+            HOME
+          </li>
+        </Link>
+        <Link to="/events">
+          <li
+            onClick={() => {
+              setisBurgerActive(false);
+            }}
+            style={
+              isPhone
+                ? isBurgerActive
+                  ? { transform: `translateX(0%)` }
+                  : { transform: `translateX(${100 * ++counter}%)` }
+                : {}
+            }
+          >
+            <i
+              className="fa-solid fa-calendar-check"
+              style={{ color: "#ffffff" }}
+            ></i>
+            EVENTS
+          </li>
+        </Link>
+        <Link to="/team">
+          <li
+            onClick={() => {
+              setisBurgerActive(false);
+            }}
+            style={
+              isPhone
+                ? isBurgerActive
+                  ? { transform: `translateX(0%)` }
+                  : { transform: `translateX(${100 * ++counter}%)` }
+                : {}
+            }
+          >
+            <i
+              className="fa-solid fa-people-group"
+              style={{ color: "#ffffff" }}
+            ></i>
+            TEAM
+          </li>
+        </Link>
+        <Link to="/contact">
+          <li
+            onClick={() => {
+              setisBurgerActive(false);
+            }}
+            style={
+              isPhone
+                ? isBurgerActive
+                  ? { transform: `translateX(0%)` }
+                  : { transform: `translateX(${100 * ++counter}%)` }
+                : {}
+            }
+          >
+            <i
+              className="fa-solid fa-address-book"
+              style={{ color: "#ffffff" }}
+            ></i>
+            CONTACT US
+          </li>
+        </Link>
       </ul>
 
       {/* Burger to open Side Navbar when devive is Phone */}

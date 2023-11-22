@@ -1,0 +1,23 @@
+.Events {
+    width: 100%;
+    margin-top: 10vh;
+    background: url('./Images/eventsbg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.our-event-heading {
+    font-family: 'Inter', sans-serif;
+    border-left: 7px solid #5109AD;
+    color: white;
+    margin: 1em 2em;
+    padding-left: 0.7em;
+    font-size: 3em;
+}
+
+@media screen and (max-width:720px) {
+    .our-event-heading {
+        margin: 1em 1em;
+    }
+}

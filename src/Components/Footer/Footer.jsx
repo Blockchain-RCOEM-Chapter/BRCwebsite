@@ -42,33 +42,32 @@ function Footer() {
 
   const generatedivs = () => {
     return carouselImages.map((link, index) => (
-      <div
+      <img
+        src={link}
         key={index}
         style={
           counter === 1
             ? {
-                background: `url('${link}')`,
                 transform: `translateX(${-1 * counter * 100}%)`,
                 transition: "transform 0s ease",
               }
             : {
-                background: `url('${link}')`,
                 transform: `translateX(${-1 * counter * 100}%)`,
                 transition: "transform 1s ease",
               }
         }
-      ></div>
+      />
     ));
   };
 
   // Devloped By Section in Mobile Screen View Logic
   const [typeEffect] = useTypewriter({
     words: [
-      "Devloper 1",
-      "Devloper 2",
-      "Devloper 3",
-      "Devloper 4",
-      "Devloper 5",
+      "Aniket Raut",
+      "Namrata Diware",
+      "Apeksha Jamjar",
+      "Satyam Mishra",
+      "Manan Dixit",
     ],
     loop: {},
     typeSpeed: 90,
@@ -135,7 +134,7 @@ function Footer() {
       {/* Container for Devloped By names in Phone Screen Size */}
       <div className="phonesized-devlopedby">
         <p>Devloped By </p>
-        <span> {typeEffect}</span>
+        <span>{typeEffect} |</span>
       </div>
 
       {/* Container Containing Disclosers  */}
