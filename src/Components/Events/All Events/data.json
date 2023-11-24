@@ -4,50 +4,47 @@
             "img-source":"https://drive.google.com/uc?id=1BuPjgYzjdEfbT83Js3FKDZlUZl-mDdRK",
             "title":"Guidance session on SIH 2023",
             "date":"August,31,2023",
-            "mode":"online"
+            "mode":"Online"
+        },
+        {
+            "img-source":"https://drive.google.com/uc?id=1FaO1hFMgOlIENmTQCSFsxB6jG-on5Kf5",
+            "title":"Placement and Carrer Guidance Session",
+            "date":"July,08,2023",
+            "mode":"Main Auditorium"
         },
         {
             "img-source":"https://drive.google.com/uc?id=116PMMfWUualdnESaxA_SJum2IxmctbTE",
-            "title":"Guidance session on SIH 2023",
-            "date":"August,31,2023",
-            "mode":"online"
+            "title":"LUMOS-Into the Web3 Metaverse",
+            "date":"June,30,2023",
+            "mode":"Main Auditorium"
         },
         {
             "img-source":"https://drive.google.com/uc?id=1XNbxJwYyeZG626dtIm8SvgwlKVwJmNml",
-            "title":"Guidance session on SIH 2023",
-            "date":"August,31,2023",
-            "mode":"online"
-        },
-        {
-            "img-source":"https://drive.google.com/uc?id=1vZvDmiwPX-QLyfqjxOwQXfU7W7wSQrSB",
-            "title":"Guidance session on SIH 2023",
-            "date":"August,31,2023",
-            "mode":"online"
-        },
-        {
-            "img-source":"https://drive.google.com/uc?id=1pQHbqv8dowTkExAQgrVuWSC5PRa3kWKS",
-            "title":"Guidance session on SIH 2023",
-            "date":"August,31,2023",
-            "mode":"online"
+            "title":"Cohort 4",
+            "date":"May,28,2023",
+            "mode":"Main Auditorium"
         },
         {
             "img-source":"https://drive.google.com/uc?id=1dd1LE3vXnqTr9edLY6rfZZNNReKSkZ1a",
-            "title":"Guidance session on SIH 2023",
-            "date":"August,31,2023",
-            "mode":"online"
+            "title":"Cohort 1",
+            "date":"April,11,2023 to April,12,2023",
+            "mode":"CSE Deparment"
+        },
+        {
+            "img-source":"https://drive.google.com/uc?id=1vZvDmiwPX-QLyfqjxOwQXfU7W7wSQrSB",
+            "title":"Web3 Genesis x Hyperlaunch",
+            "date":"March,11,2023",
+            "mode":"Main Auditorium"
         }
+       
+       
     ],
     "upcomingEvents":[
         {
             "img-source":"https://drive.google.com/uc?id=116PMMfWUualdnESaxA_SJum2IxmctbTE",
-            "title":"Guidance session on SIH 2023",
+            "title":"We will Update it Soon",
             "date":"Yet to decide",
-            "mode":"online"
-        },{
-            "img-source":"https://drive.google.com/uc?id=116PMMfWUualdnESaxA_SJum2IxmctbTE",
-            "title":"Guidance session on SIH 2023",
-            "date":"Yet to decide",
-            "mode":"online"
+            "mode":"Soon"
         }
 
     ]

@@ -147,9 +147,10 @@ body {
 }
 
 @media (max-width: 600px) {
-.LandPage{
-    height: 489px;
-}
+    .LandPage {
+        height: 489px;
+    }
+
     .info p {
         height: auto;
         width: auto;
@@ -171,7 +172,7 @@ body {
 
 
     .home-side-img {
-      
+        right: 0px;
         display: block;
     }
 
@@ -181,10 +182,10 @@ body {
 
 
     .home-vector {
-        height:45%;
+        height: 45%;
         left: 60px;
-       max-width: 100%; 
-        
+        max-width: 100%;
+
     }
 
     .home-side-img {
@@ -196,7 +197,7 @@ body {
     .home-vector p {
 
         font-size: 0.75em;
-        font-weight:550;
+        font-weight: 550;
     }
 
 }

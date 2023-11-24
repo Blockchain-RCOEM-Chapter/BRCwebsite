@@ -17,7 +17,14 @@ function AllEvents() {
             ></i>
             {details["date"]}
           </p>
-          <p className="on-off-mode">{details["mode"]}</p>
+          <p className="on-off-mode">
+            {" "}
+            <i
+              className="fa-solid fa-location-dot"
+              style={{ color: "#ffffff" }}
+            ></i>
+            {details["mode"]}
+          </p>
           <button className="more-details-btn">View More</button>
         </div>
       )

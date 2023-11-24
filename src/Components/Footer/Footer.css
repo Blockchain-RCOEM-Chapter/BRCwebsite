@@ -139,7 +139,7 @@ footer {
 
 
 /* Container Containing ShoutOut to devlopers */
-.developedby {
+/* .developedby {
     height: 90%;
     width: 30%;
     display: flex;
@@ -148,13 +148,13 @@ footer {
     justify-content: center;
     color: #ffffff;
     font-size: 1.1em;
-}
+} */
 
-.phonesized-devlopedby {
+/* .phonesized-devlopedby {
     display: none;
-}
+} */
 
-
+/* 
 .developers-carousel {
     height: 70%;
     width: 60%;
@@ -170,9 +170,49 @@ footer {
     min-width: 100%;
 }
 
+.developedby {
+    display: none;
+} */
+
+.phonesized-devlopedby-L,
+.phonesized-devlopedby-S {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 30%;
+    color: white;
+    font-weight: bold;
+}
+
+.phonesized-devlopedby-S {
+    display: none;
+}
+
+.phonesized-devlopedby-L p,
+.phonesized-devlopedby-S p {
+    text-align: center;
+}
+
+.phonesized-devlopedby-L span,
+.phonesized-devlopedby-S span {
+    color: rgb(255, 179, 0);
+    padding-right: 2px;
+    text-wrap: balance;
+    text-align: center;
+}
+
 @media screen and (max-width:480px) {
-    .developedby {
+
+    .phonesized-devlopedby-L {
         display: none;
+    }
+
+    .phonesized-devlopedby-S {
+        display: flex;
+        height: 50%;
+        width: 50%;
     }
 
     .social-media {
@@ -196,25 +236,6 @@ footer {
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .phonesized-devlopedby {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 50%;
-        width: 50%;
-        color: white;
-        font-weight: bold;
-    }
-
-    .phonesized-devlopedby p {
-        text-align: center;
-    }
-
-    .phonesized-devlopedby span {
-        color: rgb(255, 179, 0);
-        padding-right: 2px;
-    }
 
     .rights {
         height: 50%;

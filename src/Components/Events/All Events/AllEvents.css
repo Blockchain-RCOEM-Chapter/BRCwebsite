@@ -35,19 +35,18 @@
     font-size: 1.3em;
 }
 
-.event-date {
+.event-date,
+.on-off-mode {
     margin: 0% 9px;
     font-size: 0.8em;
 }
 
-.event-date i {
+.event-date i,
+.on-off-mode i {
     margin-right: 5px;
+    display: inline;
 }
 
-.on-off-mode {
-    margin: 0px 1.8em;
-    font-size: 0.8em;
-}
 
 .more-details-btn {
     padding: 5px 10px;
