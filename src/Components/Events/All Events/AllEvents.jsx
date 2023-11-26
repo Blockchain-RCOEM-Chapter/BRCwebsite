@@ -25,7 +25,9 @@ function AllEvents() {
             ></i>
             {details["mode"]}
           </p>
-          <button className="more-details-btn">View More</button>
+          <a href={details["instaLink"]} target="_blank" rel="noreference">
+            <button className="more-details-btn">View More</button>
+          </a>
         </div>
       )
     );

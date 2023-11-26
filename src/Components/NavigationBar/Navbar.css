@@ -59,6 +59,11 @@ ul a li:hover {
     border-radius: 10px;
 }
 
+.active {
+    background-color: rgba(15, 14, 14, 0.722);
+    border-radius: 10px;
+}
+
 .fa-solid {
     display: none;
 }

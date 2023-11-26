@@ -7,6 +7,7 @@ function Contact() {
     top: 0,
     behavior: "smooth",
   });
+  document.title = "BRC | Conatct Us";
   return (
     <div className="Contact">
       <CLandPage />

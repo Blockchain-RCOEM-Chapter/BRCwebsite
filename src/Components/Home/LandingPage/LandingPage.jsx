@@ -14,9 +14,16 @@ function LandingPage() {
           Shri Ramdeobaba College Of Engineering and Management
         </p>
       </div>
-      <button className="join-community-btn">
-        JOIN OUR COMMUNITY <i className="fa-solid fa-arrow-trend-up fa-lg"></i>
-      </button>
+      <a
+        href="https://www.instagram.com/blockchain_rcoem_chapter/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <button className="join-community-btn">
+          JOIN OUR COMMUNITY{" "}
+          <i className="fa-solid fa-arrow-trend-up fa-lg"></i>
+        </button>
+      </a>
     </div>
   );
 }

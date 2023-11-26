@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 function Navbar() {
@@ -28,7 +28,7 @@ function Navbar() {
           isPhone ? (isBurgerActive ? { right: "0px" } : { right: "-62%" }) : {}
         }
       >
-        <Link to="/">
+        <NavLink to="/">
           <li
             onClick={() => {
               setisBurgerActive(false);
@@ -44,8 +44,8 @@ function Navbar() {
             <i className="fa-solid fa-house" style={{ color: "#ffffff" }}></i>
             HOME
           </li>
-        </Link>
-        <Link to="/events">
+        </NavLink>
+        <NavLink to="/events">
           <li
             onClick={() => {
               setisBurgerActive(false);
@@ -64,8 +64,8 @@ function Navbar() {
             ></i>
             EVENTS
           </li>
-        </Link>
-        <Link to="/team">
+        </NavLink>
+        <NavLink to="/team">
           <li
             onClick={() => {
               setisBurgerActive(false);
@@ -84,8 +84,8 @@ function Navbar() {
             ></i>
             TEAM
           </li>
-        </Link>
-        <Link to="/contact">
+        </NavLink>
+        <NavLink to="/contact">
           <li
             onClick={() => {
               setisBurgerActive(false);
@@ -104,7 +104,7 @@ function Navbar() {
             ></i>
             CONTACT US
           </li>
-        </Link>
+        </NavLink>
       </ul>
 
       {/* Burger to open Side Navbar when devive is Phone */}

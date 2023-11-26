@@ -12,6 +12,7 @@ function Home() {
     top: 0,
     behavior: "smooth",
   });
+  document.title = "BRC | Home";
   return (
     <div className="Home">
       <LandingPage />
