@@ -6,9 +6,16 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 const Card = ({ data }) => {
   return (
     <CardWrapper
-      style={{
-        borderRadius: "1rem",
-      }}
+      style={
+        data.role === "Lead"
+          ? {
+              margin: "2em calc(50% - 7.5em)",
+              borderRadius: "1rem",
+            }
+          : {
+              borderRadius: "1rem",
+            }
+      }
     >
       <div className="card-wrapper">
         <div className="layer"></div>

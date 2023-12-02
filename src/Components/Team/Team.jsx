@@ -5,54 +5,10 @@ import Card from "./Card";
 function Team() {
   const [domain, setdomain] = useState("techTeamMembers");
   const generatePresidents = () => {
-    return Data["presidents"].map((member, index) => (
-      <Card data={member} />
-      // <div className="container">
-      //   <div className="one-member">
-      //     <img src={member["photoUrl"]} alt="image" />
-
-      //     <h3>{member["name"]}</h3>
-      //     <p>
-      //       {member["role"]}
-      //       <p> {member["branch"]}</p>
-      //     </p>
-
-      //     <div className="one-member-social-media">
-      //       <a href={member["instaid"]} target="_blank" rel="noreferrer">
-      //         <i className="fa-brands fa-instagram"></i>
-      //       </a>
-      //       <a href={member["linkedinid"]} target="_blank" rel="noreferrer">
-      //         <i className="fa-brands fa-linkedin"></i>
-      //       </a>
-      //     </div>
-      //   </div>
-      // </div>
-    ));
+    return Data["presidents"].map((member, index) => <Card data={member} />);
   };
   const generateCard = () => {
-    return Data[domain].map((member, index) => (
-      <Card data={member} />
-      // <div className={`container ${member["role"] === "Lead" ? "lead" : ""}`}>
-      //   <div className="one-member">
-      //     <img src={member["photoUrl"]} alt="image" />
-
-      //     <h3>{member["name"]}</h3>
-      //     <p>
-      //       {member["role"]}
-      //       <p> {member["branch"]}</p>
-      //     </p>
-
-      //     <div className="one-member-social-media">
-      //       <a href={member["instaid"]} target="_blank" rel="noreferrer">
-      //         <i className="fa-brands fa-instagram"></i>
-      //       </a>
-      //       <a href={member["linkedinid"]} target="_blank" rel="noreferrer">
-      //         <i className="fa-brands fa-linkedin"></i>
-      //       </a>
-      //     </div>
-      //   </div>
-      // </div>
-    ));
+    return Data[domain].map((member, index) => <Card data={member} />);
   };
 
   return (
@@ -125,19 +81,6 @@ function Team() {
           }
         >
           Content Team
-        </div>
-
-        <div
-          onClick={() => {
-            setdomain("videoEditingMembers");
-          }}
-          style={
-            domain === "videoEditingMembers"
-              ? { backgroundColor: "#68626167" }
-              : {}
-          }
-        >
-          Video Editing
         </div>
       </div>
 
