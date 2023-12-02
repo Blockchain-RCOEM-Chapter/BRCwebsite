@@ -1,0 +1,114 @@
+.Team {
+    margin-top: 10vh;
+    width: 100%;
+}
+
+.one-member {
+    width: 15em;
+    border: 1px solid black;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.one-member img {
+    width: 100px;
+    height: 200px;
+    border-radius: 100px;
+    margin-top: 10px;
+}
+
+.one-member-social-media img {
+    width: 30px;
+    height: 40px;
+    border-radius: 1000px;
+    margin-bottom: 15px;
+}
+
+
+.team-members-name {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team-nav .logo {
+    height: 100px;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+.team-nav .logo:hover {
+    height: 115px;
+    transition: 1s ease;
+    font-size: 20px;
+}
+
+body {
+    width: 100%;
+    margin-top: 10vh;
+    background: url('./Images/back.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 5em;
+}
+
+#font {
+    color: rgb(255, 116, 255);
+}
+
+.heading {
+    color: white;
+    margin-top: auto;
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+.fontstyle {
+    color: white;
+    margin-left: 60px;
+}
+
+.one-member {
+    background-color: #b749c7;
+    border: 5px solid #810d93;
+    height: 325px;
+    width: 200px;
+    margin-left: 10px;
+    font-size: smaller;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.one-member:hover {
+    cursor: pointer;
+    background-color: #810d93;
+    border-color: #b749c7;
+    transition: 1s linear;
+    height: 330px;
+    width: 210px;
+}
+
+.icons {
+    height: 20px;
+}
+
+.team-nav {
+    cursor: pointer;
+}
+
+.presidents {
+    display: flex;
+    margin-left: 400px;
+
+}

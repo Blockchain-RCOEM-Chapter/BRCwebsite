@@ -1,0 +1,213 @@
+.Team {
+  width: 100%;
+  margin-top: 10vh;
+  background: url('./images/back.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 5em;
+}
+
+.container {
+  color: white;
+  position: relative;
+  font-family: sans-serif;
+}
+
+.container::before,
+.container::after {
+  content: "";
+  background-color: #dc70fa4c;
+  position: absolute;
+  transition: top 0.3s ease, right 0.3s ease;
+}
+
+.container::before {
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+  top: 30%;
+  right: 14%;
+}
+
+.container::after {
+  content: "";
+  position: absolute;
+  height: 3rem;
+  top: 15%;
+  right: 17%;
+  border: 1px solid;
+}
+
+.container .one-member {
+  width: 11.875em;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.074);
+  border: 1px solid rgba(255, 255, 255, 0.222);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 0.7rem;
+  transition: all ease 0.3s;
+}
+
+.container .one-member {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container .one-member:hover {
+  box-shadow: 0px 0px 20px 1px #dc70fa4c;
+  border: 1px solid rgba(255, 255, 255, 0.454);
+}
+
+.container:hover::before {
+  top: 55%;
+  right: 29%;
+}
+
+
+
+.one-member {
+
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Readex Pro', sans-serif;
+  padding: 10px 0px;
+  border-radius: 20px;
+  animation: onecardanimation 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+
+
+
+
+
+.lead {
+  margin-left: calc(40% - 7em);
+  margin-right: calc(40% - 7em);
+}
+
+.one-member img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-top: 10px;
+}
+
+.one-member h3 {
+  text-align: center;
+}
+
+.one-member p {
+  margin: 5px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.one-member-social-media i {
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.one-member-social-media {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.team-nav {
+  margin-top: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  margin: 20px auto;
+  border-radius: 5px;
+  border: 2px solid #41084a;
+  background-color: #68626152;
+  backdrop-filter: blur(62px);
+}
+
+.team-nav div {
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Readex Pro', sans-serif;
+}
+
+.team-nav div:hover {
+  background-color: #68626167;
+  cursor: pointer;
+}
+
+
+#font {
+  color: rgb(255, 116, 255);
+}
+
+.teamheading {
+  font-family: 'Readex Pro', sans-serif;
+  padding-top: 30px;
+  color: white;
+  border: none;
+  text-align: center;
+  font-size: 40px;
+}
+
+.fontstyle {
+  color: white;
+  margin-left: 60px;
+}
+
+.team-members-name {
+  margin: 5%;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.presidents {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@keyframes onecardanimation {
+  0% {
+    transform: scale(0.9);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1.0);
+  }
+}
+
+@media screen and (max-width:520px) {
+  .team-nav {
+    width: 90%;
+    font-size: 13px;
+    justify-content: space-evenly;
+  }
+
+  .team-nav div {
+    padding: 5px 10px;
+
+  }
+}

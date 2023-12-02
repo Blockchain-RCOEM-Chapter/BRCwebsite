@@ -6,6 +6,7 @@ import Footer from "./Components/Footer/Footer";
 import Contact from "./Components/Contact/Contact";
 import Events from "./Components/Events/Events";
 import LoadingSpinner from "./Components/Loading Spinner/LoadingSpinner";
+import Team from "./Components/Team/Team";
 function App() {
   const [isLoaded, setisLoaded] = useState(false);
 
@@ -26,6 +27,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/team" element={<Team />} />
           <Route path="/events" element={<Events />} />
         </Routes>
         <Footer />
