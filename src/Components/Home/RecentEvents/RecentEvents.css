@@ -21,15 +21,7 @@
     background-size: cover;
     height: 250px;
     width: 250px;
-}
-
-.event-img2 {
-    background: url('../Images/event-img-2.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 250px;
-    width: 250px;
+    border-radius: 10px;
 }
 
 .event-details {

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import "./Navbar.css";
 
 function Navbar() {
@@ -15,7 +15,7 @@ function Navbar() {
   return (
     <nav>
       {/* It will Conatain  logo */}
-      <div className="logo"></div>
+      <Link to="/" className="logo"></Link>
 
       {/* It will contain the BRC text  */}
       <div className="brc">
