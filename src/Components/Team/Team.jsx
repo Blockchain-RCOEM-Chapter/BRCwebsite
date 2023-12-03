@@ -1,15 +1,27 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Team.css";
 import Data from "./Data.json";
 import Card from "./Card";
 function Team() {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+    document.title = "BRC | Events";
+  }, []);
+
   const [domain, setdomain] = useState("techTeamMembers");
   const [isspinnervisible, setisspinnervisible] = useState(false);
   const generatePresidents = () => {
-    return Data["presidents"].map((member, index) => <Card data={member} />);
+    return Data["presidents"].map((member, index) => (
+      <Card data={member} key={index} />
+    ));
   };
   const generateCard = () => {
-    return Data[domain].map((member, index) => <Card data={member} />);
+    return Data[domain].map((member, index) => (
+      <Card data={member} key={index} />
+    ));
   };
   const loadSpinner = () => {
     setisspinnervisible(true);
@@ -17,6 +29,7 @@ function Team() {
       setisspinnervisible(false);
     }, 3000);
   };
+
   return (
     <div className="Team">
       <h1 className="teamheading">

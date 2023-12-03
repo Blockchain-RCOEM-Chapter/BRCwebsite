@@ -8,7 +8,7 @@ function AllEvents() {
     return Data[`${!isPrevious ? "upcomingEvents" : "previousEvents"}`].map(
       (details, index) => (
         <div key={index} className="one-event-card">
-          <img src={details["img-source"]} alt="image" />
+          <img src={details["img-source"]} alt="" />
           <h2>{details["title"]}</h2>
           <p className="event-date">
             <i
@@ -25,7 +25,7 @@ function AllEvents() {
             ></i>
             {details["mode"]}
           </p>
-          <a href={details["instaLink"]} target="_blank" rel="noreference">
+          <a href={details["instaLink"]} target="_blank" rel="noreferrer">
             <button className="more-details-btn">View More</button>
           </a>
         </div>
