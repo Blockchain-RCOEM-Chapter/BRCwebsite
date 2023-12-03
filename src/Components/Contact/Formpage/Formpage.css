@@ -75,9 +75,12 @@ textarea {
   transform: scale(1.1);
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:600px) {
   form {
-    width: 18em;
+    height: fit-content;
+    width: 19em;
+   display: inline-block;
+ 
   }
 
 }

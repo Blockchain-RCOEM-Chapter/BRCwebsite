@@ -1,12 +1,16 @@
 import React, { useState } from "react";
 import "./Formpage.css";
+import emailjs from "emailjs-com";
+
 
 function Formpage() {
   const [formData, setFormData] = useState({
+
     name: "",
     email: "",
     message: "",
   });
+  
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -16,13 +20,32 @@ function Formpage() {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    try {
+      // Replace these values with your Email.js configuration
+      const emailService = "service_dmwsyvi";
+      const templateId = "template_tsnevom";
+      const userId = "tPtCvk0eYyLAUrNQT";
+  
+      const templateParams = {
+        name: formData.name,
+        email: formData.email,
+        message: formData.message,
+      };
+  
+      await emailjs.send(emailService, templateId, templateParams, userId);
+  
+      console.log("Email sent successfully!");
+    } catch (error) {
+      console.error("Error sending email:", error);
+    }
     // You can handle form submission logic here
     console.log("Form data submitted:", formData);
   };
 
   return (
+    
     <div className="Form">
       <form onSubmit={handleSubmit}>
         <div className="contatusform-name">
@@ -64,7 +87,10 @@ function Formpage() {
         </button>
       </form>
     </div>
+   
   );
 }
 
 export default Formpage;
+
+

@@ -35,9 +35,9 @@ body {
 
 .info p {
     width: 600px;
-    height: 30px;
-    top: 60px;
-    left: 350px;
+    height: 50px;
+    top: 100px;
+    left: 550px;
     border: 1px;
     font-family: Inter;
     font-size: 40px;
@@ -54,8 +54,8 @@ body {
 .info h1 {
     width: 862px;
     height: 188px;
-    top: 75px;
-    left: 350px;
+    top: 140px;
+    left: 550px;
     border: 5px;
     font-family: Inter;
     font-size: 96px;
@@ -67,7 +67,7 @@ body {
 }
 
 .home-vector {
-    height: 90%;
+    height: 80%;
     width: 100%;
     top: 200px;
     background: url('../Images/Vector.png');
@@ -92,8 +92,8 @@ body {
 
 .home-side-img {
     height: 27%;
-    width: 48.5%;
-    top: 200px;
+    width: 49.5%;
+    top: 250px;
     left: 53.5%;
     align-items: flex-end;
     background: url('../Images/contact.png');
@@ -148,6 +148,7 @@ body {
 @media (max-width: 600px) {
     .LandPage {
         height: 489px;
+        overflow-x: hidden;
     }
 
     .info p {
@@ -188,14 +189,15 @@ body {
     }
 
     .home-side-img {
-        height: 25%;
-        width: 48%;
+        height: 17%;
+        width: 45%;
+        min-width: fit-content;
         align-items: center;
     }
 
     .home-vector p {
 
-        font-size: 0.75em;
+        font-size: 0.70em;
         font-weight: 550;
     }
 

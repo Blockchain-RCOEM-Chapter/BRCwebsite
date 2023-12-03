@@ -22,7 +22,7 @@
 
 @media (max-width: 600px) {
     .Contact {
-        overflow: hidden;
+        overflow-x: hidden;
     }
 
     /*.heading{
@@ -40,16 +40,19 @@
         width: max-content;
         padding-right: 0px;
         text-align: center;
-        font-size: 0.1rem;
+        font-size: 0.5rem;
         font-weight: 100vw;
         margin-left: 21px;
         height: 100%;
+        align-items: flex-start;
+
 
     }
 
     .contacttext {
         font-size: 48px;
-        margin-left: 10px
+        margin-left: 10px;
+        margin: revert;
     }
 
 }
