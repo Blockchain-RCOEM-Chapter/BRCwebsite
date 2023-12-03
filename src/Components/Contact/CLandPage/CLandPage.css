@@ -37,7 +37,7 @@ body {
     width: 600px;
     height: 50px;
     top: 100px;
-    left: 550px;
+    left: 400px;
     border: 1px;
     font-family: Inter;
     font-size: 40px;
@@ -55,7 +55,7 @@ body {
     width: 862px;
     height: 188px;
     top: 140px;
-    left: 550px;
+    left: 380px;
     border: 5px;
     font-family: Inter;
     font-size: 96px;
@@ -67,7 +67,7 @@ body {
 }
 
 .home-vector {
-    height: 80%;
+    height: 100%;
     width: 100%;
     top: 200px;
     background: url('../Images/Vector.png');
@@ -80,7 +80,7 @@ body {
     justify-content: center;
     color: white;
     filter: drop-shadow(2px 2px 5px rgb(85, 0, 85));
-    font-size: calc(1.5vw + 11px);
+    font-size: calc(1.4vw + 11px);
 }
 
 .home-vector p {
@@ -93,7 +93,7 @@ body {
 .home-side-img {
     height: 27%;
     width: 49.5%;
-    top: 250px;
+    top: 200px;
     left: 53.5%;
     align-items: flex-end;
     background: url('../Images/contact.png');
@@ -189,8 +189,8 @@ body {
     }
 
     .home-side-img {
-        height: 17%;
-        width: 45%;
+        height: 23%;
+        width: 46%;
         min-width: fit-content;
         align-items: center;
     }
