@@ -8,7 +8,7 @@ function Team() {
       top: 0,
       behavior: "smooth",
     });
-    document.title = "BRC | Events";
+    document.title = "BRC | Team";
   }, []);
 
   const [domain, setdomain] = useState("techTeamMembers");
