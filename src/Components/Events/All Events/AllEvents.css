@@ -20,7 +20,7 @@
     justify-content: space-between;
     padding-bottom: 10px;
     border-radius: 10px;
-    font-family: 'Inria Serif', serif;
+    /* font-family: 'Inria Serif', serif; */
     font-weight: 300;
 }
 
@@ -114,16 +114,17 @@
 }
 
 .reach-out-us-btn {
-    margin-right: 2em;
+    margin-right: 1em;
     background-color: #3E2262;
     border-radius: 20px;
     padding: 5px 7px;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 5px;
 }
 
 .reach-out-us-btn i {
     display: inline;
-    margin: 2px 5px;
+    margin: 10px 5px;
     transform: rotate(45deg);
 }
 
