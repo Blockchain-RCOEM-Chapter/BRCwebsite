@@ -115,11 +115,12 @@
 
 .reach-out-us-btn {
     margin-right: 1em;
+    align-items: center;
     background-color: #3E2262;
     border-radius: 20px;
     padding: 5px 7px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 5px;
+    font-size: 15px;
 }
 
 .reach-out-us-btn i {
