@@ -42,6 +42,11 @@ input {
   height: 3em;
 }
 
+input:active {
+
+  background: #B0A0B0;
+}
+
 textarea {
   height: 7em;
   width: 100%;
