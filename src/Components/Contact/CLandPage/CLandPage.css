@@ -147,7 +147,7 @@ body {
 
 @media (max-width: 600px) {
     .LandPage {
-        height: 489px;
+        height: 65vh;
         overflow-x: hidden;
     }
 

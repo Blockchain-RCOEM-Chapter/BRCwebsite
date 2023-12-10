@@ -64,6 +64,7 @@ const CardWrapper = styled.div`
   width: 15rem;
   min-height: 25rem;
   border: 1px solid black;
+  box-shadow: rgb(69 77 181) 8px 0px 30px, rgb(192 76 102) -8px 0px 30px;
   color: white;
   height: fit-content;
   text-align: center;

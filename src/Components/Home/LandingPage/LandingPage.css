@@ -44,16 +44,16 @@
     padding: 15px;
     border: none;
     border-radius: 10px;
-    background-color: #8256FF;
+    background-color: #262626;
+    margin-top: 10px;
+    box-shadow: 7px 0px 15px #717bf9, -7px 0px 15px #fa5c7f;
     text-align: center;
-    transition: all 1s ease-in-out;
-    box-shadow: 2px 2px 5px black;
+    transition: all 500ms ease-in-out;
 }
 
 .join-community-btn:hover {
-    background-color: #652efa;
-    box-shadow: 2px 2px 7px black;
-    transform: scale(1.1);
+    box-shadow: 7px 0px 15px #fa5c7f, -7px 0px 15px #717bf9;
+    transform: scale(1.03);
 }
 
 

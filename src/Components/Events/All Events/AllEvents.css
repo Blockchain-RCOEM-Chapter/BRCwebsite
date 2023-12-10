@@ -22,6 +22,14 @@
     border-radius: 10px;
     /* font-family: 'Inria Serif', serif; */
     font-weight: 300;
+    box-shadow: rgb(69 77 181) 8px 0px 30px, rgb(192 76 102) -8px 0px 30px;
+    transition: all 500ms ease-in-out;
+}
+
+.one-event-card:hover {
+    box-shadow: rgb(192 76 102) 8px 0px 30px, rgb(69 77 181) -8px 0px 30px;
+    transform: scale(1.05);
+
 }
 
 .one-event-card img {
@@ -121,6 +129,7 @@
     padding: 5px 7px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
+    margin-top: 10px;
 }
 
 .reach-out-us-btn i {
