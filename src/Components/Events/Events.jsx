@@ -7,7 +7,6 @@ function Events() {
     top: 0,
     behavior: "smooth",
   });
-  document.title = "BRC | Events";
   return (
     <div className="Events">
       <EventLandingPage />
