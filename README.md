@@ -28,3 +28,6 @@ The project's file structure is organized as follows:
 Clone this repository to your local development environment:
 
 **Let's collaborate to build something exceptional for the BlockChain RCOEM Chapter. If you have questions, innovative ideas, or need assistance, don't hesitate to reach out to the team. Happy coding! ✨️**
+
+# Catch this repository live
+https://blockchain-rcoem-chapter.vercel.app/
