@@ -26,12 +26,19 @@ function Home() {
           property="og:description"
           content="Visit the official website of Blockchain RCOEM Chapter (BRC), your gateway to decentralized development and blockchain programming at RCOEM"
         />
-        <meta property="og:image" content="./Images/brc-logo.svg" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="https://blockchain-rcoem-chapter.vercel.app/static/media/brc-logo.afe4cca69f17ea1bd713da3bd05654ab.svg"
+        />
         <meta
           property="og:url"
           content="https://blockchain-rcoem-chapter.vercel.app/"
         />
-        <link rel="cononical" href="/" />
+        <link
+          rel="cononical"
+          href="https://blockchain-rcoem-chapter.vercel.app/"
+        />
       </Helmet>
       <div className="Home">
         <LandingPage />

@@ -44,12 +44,19 @@ function Team() {
           property="og:description"
           content="Meet our Blockchain RCOEM team—passionate about tech innovation, making a positive impact. Explore the minds behind the revolution!"
         />
-        <meta property="og:image" content="../Home/Images/brc-logo.svg" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="https://blockchain-rcoem-chapter.vercel.app/static/media/brc-logo.afe4cca69f17ea1bd713da3bd05654ab.svg"
+        />
         <meta
           property="og:url"
           content="https://blockchain-rcoem-chapter.vercel.app/team"
         />
-        <link rel="cononical" href="/team" />
+        <link
+          rel="cononical"
+          href="https://blockchain-rcoem-chapter.vercel.app/team"
+        />
       </Helmet>
       <div className="Team">
         <h1 className="teamheading">
