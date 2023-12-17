@@ -1,24 +1,8 @@
-import React, { useState, useEffect } from "react";
-import { NavLink, Link, useLocation } from "react-router-dom";
+import React, { useState } from "react";
+import { NavLink, Link } from "react-router-dom";
 import "./Navbar.css";
 
 function Navbar() {
-  const [windowTitle, setwindowTitle] = useState("");
-  const location = useLocation();
-  document.title = `${windowTitle} | BlockChain RCOEM Chapter`;
-
-  useEffect(() => {
-    if (location.pathname === "/") {
-      setwindowTitle("Home");
-    } else if (location.pathname === "/events") {
-      setwindowTitle("Events");
-    } else if (location.pathname === "/team") {
-      setwindowTitle("Team");
-    } else if (location.pathname === "/contact") {
-      setwindowTitle("Conatact Us");
-    }
-  }, [location.pathname]);
-
   // To Manage State when Side Navbar is open or not
   const [isBurgerActive, setisBurgerActive] = useState(false);
 
