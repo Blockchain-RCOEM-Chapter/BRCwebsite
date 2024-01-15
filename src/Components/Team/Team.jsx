@@ -28,7 +28,7 @@ function Team() {
     setisspinnervisible(true);
     setTimeout(() => {
       setisspinnervisible(false);
-    }, 3000);
+    }, 2000);
   };
 
   return (
