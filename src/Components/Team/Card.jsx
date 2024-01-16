@@ -3,13 +3,15 @@ import styled from "styled-components";
 import FormatQuoteIcon from "@mui/icons-material/FormatQuote";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import Photo from "./images/photo.jpg";
+
 const Card = ({ data }) => {
+  const handleImageError = (event) => {
+    event.target.src = Photo; // Set the local image when the remote image fails to load
+  };
+
   return (
-    <CardWrapper
-      style={{
-        borderRadius: "1rem",
-      }}
-    >
+    <CardWrapper style={{ borderRadius: "1rem" }}>
       <div className="card-wrapper">
         <div className="layer"></div>
         <div className="content">
@@ -23,7 +25,11 @@ const Card = ({ data }) => {
           </div>
 
           <div className="imageDiv">
-            <img src={data.photoUrl} alt="" />
+            <img
+              src={data.photoUrl || Photo}
+              alt=""
+              onError={handleImageError} // Handle image loading error
+            />
           </div>
           <div className="nameBox">
             <p className="name">{data.name}</p>
