@@ -143,7 +143,7 @@ function Team() {
         {isspinnervisible && (
           <div
             className="spinner-border text-light"
-            style={{ margin: "10px 0%", marginLeft: "50%" }}
+            style={{ color: "white", margin: "10px 0%", marginLeft: "50%" }}
             role="status"
           >
             <span className="visually-hidden">Loading...</span>
