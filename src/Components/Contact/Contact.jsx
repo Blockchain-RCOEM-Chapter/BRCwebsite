@@ -32,11 +32,11 @@ function Contact() {
         />
         <meta
           property="og:url"
-          content="https://blockchain-rcoem-chapter.vercel.app/contact"
+          content="https://blockchainrcoemchapter.co.in/contact"
         />
         <link
           rel="cononical"
-          href="https://blockchain-rcoem-chapter.vercel.app/contact"
+          href="https://blockchainrcoemchapter.co.in/contact"
         />
       </Helmet>
       <div className="Contact">

@@ -51,11 +51,11 @@ function Team() {
         />
         <meta
           property="og:url"
-          content="https://blockchain-rcoem-chapter.vercel.app/team"
+          content="https://blockchainrcoemchapter.co.in/team"
         />
         <link
           rel="cononical"
-          href="https://blockchain-rcoem-chapter.vercel.app/team"
+          href="https://blockchainrcoemchapter.co.in/team"
         />
       </Helmet>
       <div className="Team">

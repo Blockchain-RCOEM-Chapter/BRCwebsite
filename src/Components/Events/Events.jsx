@@ -29,11 +29,11 @@ function Events() {
         />
         <meta
           property="og:url"
-          content="https://blockchain-rcoem-chapter.vercel.app/events"
+          content="https://blockchainrcoemchapter.co.in/events"
         />
         <link
           rel="cononical"
-          href="https://blockchain-rcoem-chapter.vercel.app/events"
+          href="https://blockchainrcoemchapter.co.in/events"
         />
       </Helmet>
       <div className="Events">

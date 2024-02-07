@@ -33,12 +33,9 @@ function Home() {
         />
         <meta
           property="og:url"
-          content="https://blockchain-rcoem-chapter.vercel.app/"
+          content="https://blockchainrcoemchapter.co.in/"
         />
-        <link
-          rel="cononical"
-          href="https://blockchain-rcoem-chapter.vercel.app/"
-        />
+        <link rel="cononical" href="https://blockchainrcoemchapter.co.in/" />
       </Helmet>
       <div className="Home">
         <LandingPage />
