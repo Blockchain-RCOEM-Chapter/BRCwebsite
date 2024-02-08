@@ -18,7 +18,7 @@
     },
     {
       "photoUrl": "https://i.ibb.co/p4V5hmK/dhanasgreedhapure.png",
-      "name": "Dhanashree Dharpure",
+      "name": "Dhanshree Dharpure",
       "role": "Member",
       "branch": "3rd Year CSE",
       "instaid": "https://www.instagram.com/exploringsoull/",
@@ -49,7 +49,15 @@
       "linkedinid": "https://www.linkedin.com/in/sejal-jagtap-a35194215/"
     },
     {
-      "photoUrl": "https://i.ibb.co/QKgmjTb/aniketraut.jpg",
+      "photoUrl": "https://i.ibb.co/Gky7FqX/namratadiware.png",
+      "name": "Namrata Diware",
+      "role": "Member",
+      "branch": "2nd Year AIML",
+      "instaid": "https://instagram.com/namrata_diwre/",
+      "linkedinid": "https://www.linkedin.com/in/namrata-diware-181491276/"
+    },
+    {
+      "photoUrl": "https://i.ibb.co/SXrRcmw/aniketraut.jpg",
       "name": "Aniket Raut",
       "role": "Member",
       "branch": "2nd Year AIML",
@@ -65,12 +73,12 @@
       "linkedinid": "https://www.linkedin.com/in/apeksha-jamjar-520718258/"
     },
     {
-      "photoUrl": "https://i.ibb.co/Gky7FqX/namratadiware.png",
-      "name": "Namrata Diware",
+      "photoUrl": "https://i.ibb.co/VJSbs9v/manandaxnini.jpg",
+      "name": "Manan Daxini",
       "role": "Member",
-      "branch": "2nd Year AIML",
-      "instaid": "https://instagram.com/namrata_diwre/",
-      "linkedinid": "https://www.linkedin.com/in/namrata-diware-181491276/"
+      "branch": "2nd Year ECS",
+      "instaid": "https://www.instagram.com/manan_daxini25/",
+      "linkedinid": "https://www.linkedin.com/in/manan-daxini-180b69247/"
     },
     {
       "photoUrl": "https://i.ibb.co/BGNMf9N/satyammishra.png",
@@ -79,14 +87,6 @@
       "branch": "2nd Year CSE",
       "instaid": "#",
       "linkedinid": "https://www.linkedin.com/in/a-satyam-mishra-37a75a277"
-    },
-    {
-      "photoUrl": "https://i.ibb.co/VJSbs9v/manandaxnini.jpg",
-      "name": "Manan Daxini",
-      "role": "Member",
-      "branch": "2nd Year ECS",
-      "instaid": "https://www.instagram.com/manan_daxini25/",
-      "linkedinid": "https://www.linkedin.com/in/manan-daxini-180b69247/"
     }
   ],
 
@@ -274,8 +274,9 @@
       "instaid": "https://www.instagram.com/tanay_42_/",
       "linkedinid": "https://www.linkedin.com/in/tanay-verma-41482b259"
     },
+
     {
-      "photoUrl": "https://i.ibb.co/sC2J32m/ishaahuja.png",
+      "photoUrl": "https://i.ibb.co/z7ZtCDC/ishaahuja.jpg",
       "name": "Isha Ahuja",
       "role": "Member",
       "branch": "2nd Year ECS",
@@ -301,7 +302,7 @@
   ],
   "contentTeam": [
     {
-      "photoUrl": "https://i.ibb.co/2WLq3wS/anshbakshi.jpg",
+      "photoUrl": "https://i.ibb.co/fSzScLQ/anshbakshi.jpg",
       "name": "Ansh Bakshi",
       "role": "Lead",
       "branch": "3rd Year CyberSecurity",

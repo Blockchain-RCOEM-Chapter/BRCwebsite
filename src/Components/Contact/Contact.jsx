@@ -12,7 +12,7 @@ function Contact() {
   return (
     <>
       <Helmet>
-        <title>CONATACT US | BLOCKCHAIN RCOEM CHAPTER</title>
+        <title>Contact Us | Blockchain Rcoem Chapter</title>
         <meta
           name="description"
           content="Connect with Blockchain RCOEM. Have questions or ideas? Reach out—we're here to help. Let's collaborate and shape the future together!"
