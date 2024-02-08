@@ -10,7 +10,7 @@ function CLandPage() {
           Contact <span style={{ color: "#7DDEE4" }}>BRC</span> !!
         </h1>
       </div>
-      
+
       <div className="home-vector">
         <p>“We would love to hear </p>
         <p>from you ! Please feel</p>

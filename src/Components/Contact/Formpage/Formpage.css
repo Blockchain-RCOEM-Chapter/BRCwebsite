@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   color: white;
 }
 
@@ -34,7 +34,7 @@ label {
 input {
   width: 100%;
   padding: 8px;
-  background: #B0A0B0;
+  background: #b0a0b0;
   border-radius: 10px;
   outline: none;
   border: 1px solid black;
@@ -43,15 +43,14 @@ input {
 }
 
 input:active {
-
-  background: #B0A0B0;
+  background: #b0a0b0;
 }
 
 textarea {
   height: 7em;
   width: 100%;
   padding: 8px;
-  background: #B0A0B0;
+  background: #b0a0b0;
   border-radius: 10px;
   outline: none;
   border: 1px solid black;
@@ -62,7 +61,7 @@ textarea {
 .submit-btn {
   width: 50%;
   font-size: 1.3em;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: white;
   padding: 10px;
   border: none;
@@ -81,12 +80,10 @@ textarea {
   transform: scale(1.03);
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   form {
     height: fit-content;
     width: 19em;
     display: inline-block;
-
   }
-
 }
