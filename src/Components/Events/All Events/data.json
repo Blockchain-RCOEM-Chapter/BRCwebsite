@@ -1,19 +1,21 @@
 {
   "previousEvents": [
-   { "img-source":"https://i.ibb.co/hRJgF9d/Screenshot-20240208-144008-Instagram.jpg",
+    {
+      "img-source": "https://i.ibb.co/HxQC09G/Whats-App-Image-2024-02-08-at-9-28-48-PM.jpg",
       "title": "Web3Utsav",
       "date": "February, 7 ,2024",
       "mode": "Digital Tower",
-      "instaLink":"https://www.instagram.com/p/C27siboCGy9/?igsh=MXY0bWp0N3l1eXRqZA=="
+      "instaLink": "https://www.instagram.com/p/C27siboCGy9/?igsh=MXY0bWp0N3l1eXRqZA=="
     },
 
-{
+    {
       "img-source": "https://i.ibb.co/pbzzXHp/20240205-121506-136.jpg",
       "title": "Cryptopoly",
       "date": "January,30,2024",
       "mode": "Digital Tower",
       "instaLink": "https://www.instagram.com/p/C2ko4gHCWvg/?igsh=MTVldHpxNHRrcnh5Yw=="
-    },    {
+    },
+    {
       "img-source": "https://i.ibb.co/hmbhW0c/Screenshot-20240205-120527-Drive.jpg",
       "title": "BitBlitz",
       "date": "November,29,2023",
