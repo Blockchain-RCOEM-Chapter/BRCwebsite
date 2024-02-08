@@ -16,12 +16,12 @@ function Home() {
   return (
     <>
       <Helmet>
-        <title>HOME | BLOCKCHAIN RCOEM CHAPTER</title>
+        <title>BLOCKCHAIN RCOEM CHAPTER</title>
         <meta
           name="description"
           content="Visit the official website of Blockchain RCOEM Chapter (BRC), your gateway to decentralized development and blockchain programming at RCOEM"
         />
-        <meta property="og:title" content="HOME | BLOCKCHAIN RCOEM CHAPTER" />
+        <meta property="og:title" content="BLOCKCHAIN RCOEM CHAPTER" />
         <meta
           property="og:description"
           content="Visit the official website of Blockchain RCOEM Chapter (BRC), your gateway to decentralized development and blockchain programming at RCOEM"
