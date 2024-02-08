@@ -37,7 +37,7 @@ body {
     width: 600px;
     height: 50px;
     top: 100px;
-    left: 400px;
+    left: 484px;
     border: 1px;
     font-family: Inter;
     font-size: 40px;
@@ -55,7 +55,7 @@ body {
     width: 862px;
     height: 188px;
     top: 140px;
-    left: 380px;
+    left: 480px;
     border: 5px;
     font-family: Inter;
     font-size: 96px;
@@ -69,7 +69,7 @@ body {
 .home-vector {
     height: 100%;
     width: 100%;
-    top: 200px;
+    top: 150px;
     background: url('../Images/Vector.png');
     background-position: left;
     background-repeat: no-repeat;
@@ -87,6 +87,7 @@ body {
     margin: 0px;
     margin-left: 1em;
     width: 70%;
+    font-size: 2.06rem;
 }
 
 
@@ -94,7 +95,7 @@ body {
     height: 27%;
     width: 49.5%;
     top: 200px;
-    left: 53.5%;
+    left: 57.5%;
     align-items: flex-end;
     background: url('../Images/contact.png');
     background-position: center;
@@ -103,52 +104,17 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     filter: drop-shadow(2px 2px 5px #000000);
+    overflow-y: hidden;
 
 
-    @keyframes glow_and_scale {
-        0% {
-            transform: scale(0.95);
-            filter: drop-shadow(2px 2px 7px rgb(0, 0, 0));
-        }
 
-        15% {
-            transform: scale(1.02);
-            filter: drop-shadow(2px 2px 6px rgb(0, 0, 0));
-        }
-
-        30% {
-            transform: scale(0.98);
-            filter: drop-shadow(2px 2px 5px rgb(0, 0, 0));
-        }
-
-        45% {
-            transform: scale(1.03);
-            filter: drop-shadow(2px 2px 4px rgb(0, 0, 0));
-        }
-
-        60% {
-            transform: scale(0.97);
-            filter: drop-shadow(2px 2px 3px rgb(0, 0, 0));
-        }
-
-        75% {
-            transform: scale(1.01);
-            filter: drop-shadow(2px 2px 4px rgb(0, 0, 0));
-        }
-
-        100% {
-            transform: scale(0.95);
-            filter: drop-shadow(2px 2px 7px rgb(0, 0, 0));
-            animation: glow_and_scale 8s ease-in-out infinite;
-        }
-    }
-
+ 
 }
 
 @media (max-width: 600px) {
     .LandPage {
-        height: 65vh;
-        overflow-x: hidden;
+        height: 83vh;
+        overflow: hidden;
     }
 
     .info p {
@@ -163,18 +129,14 @@ body {
     .info h1 {
 
         width: auto;
-        left: 20px;
-        top: 130px;
-        text-align: center;
-        font-size: 2.1em;
+    left: 33px;
+    top: 130px;
+    text-align: center;
+    font-size: 1.9em;
     }
 
 
 
-    .home-side-img {
-        right: 0px;
-        display: block;
-    }
 
 
 
@@ -185,20 +147,21 @@ body {
         height: 45%;
         left: 60px;
         max-width: 100%;
-
+       
     }
 
     .home-side-img {
-        height: 23%;
-        width: 46%;
-        min-width: fit-content;
-        align-items: center;
+  
+        width: 60%;
+     left:9.32rem;
+      height: 25rem;
+        overflow: hidden;
     }
 
     .home-vector p {
-
-        font-size: 0.70em;
-        font-weight: 550;
+      
+        font-size: 0.81em;
+        font-weight: 350;
     }
-
+   
 }

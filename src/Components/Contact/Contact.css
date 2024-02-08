@@ -12,11 +12,14 @@
 
 .heading {
     font-family: 'Inter', sans-serif;
-    border-left: 7px solid #5109AD;
+    border-left: 11px solid #5109AD;
+   
     color: white;
     margin: 2em 1.5em;
     padding-left: 0.7em;
     font-size: 70px;
+    overflow-y: hidden;
+
 
 }
 
@@ -36,15 +39,17 @@
         border-left: 4px;
     }*/
     .heading {
-
+     border: none;
         width: max-content;
         padding-right: 0px;
         text-align: center;
         font-size: 0.5rem;
         font-weight: 100vw;
         margin-left: 21px;
-        height: 100%;
+       
         align-items: flex-start;
+        overflow-y: hidden;
+      
 
 
     }
@@ -53,6 +58,10 @@
         font-size: 48px;
         margin-left: 10px;
         margin: revert;
+        padding-left: 14px;
+        overflow-y: hidden;
+        
+
     }
 
 }
