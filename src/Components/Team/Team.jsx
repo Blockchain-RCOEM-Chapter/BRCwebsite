@@ -34,7 +34,7 @@ function Team() {
   return (
     <>
       <Helmet>
-        <title>Team | Blockchain Rcoem Chapter</title>
+        <title>TEAM | BLOCKCHAIN RCOEM CHAPTER</title>
         <meta
           name="description"
           content="Meet our Blockchain RCOEM team—passionate about tech innovation, making a positive impact. Explore the minds behind the revolution!"

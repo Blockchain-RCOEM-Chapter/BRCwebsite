@@ -16,7 +16,7 @@ function Home() {
   return (
     <>
       <Helmet>
-        <title>Blockchain Rcoem Chapter</title>
+        <title>BLOCKCHAIN RCOEM CHAPTER</title>
         <meta
           name="description"
           content="Visit the official website of Blockchain RCOEM Chapter (BRC), your gateway to decentralized development and blockchain programming at RCOEM"

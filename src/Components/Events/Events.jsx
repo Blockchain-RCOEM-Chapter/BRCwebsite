@@ -12,7 +12,7 @@ function Events() {
   return (
     <>
       <Helmet>
-        <title>Events | Blockchain Rcoem Chapter</title>
+        <title>EVENTS | BLOCKCHAIN RCOEM CHAPTER</title>
         <meta
           name="description"
           content="Discover blockchain at RCOEM Chapter's event. Explore applications, network with experts, and be part of the revolution. Secure your spot now!"
