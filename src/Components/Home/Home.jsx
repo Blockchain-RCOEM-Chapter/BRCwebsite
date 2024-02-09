@@ -16,7 +16,7 @@ function Home() {
   return (
     <>
       <Helmet>
-        <title>BLOCKCHAIN RCOEM CHAPTER</title>
+        <title>HOME | BLOCKCHAIN RCOEM CHAPTER</title>
         <meta
           name="description"
           content="Visit the official website of Blockchain RCOEM Chapter (BRC), your gateway to decentralized development and blockchain programming at RCOEM"
@@ -27,10 +27,6 @@ function Home() {
           content="Visit the official website of Blockchain RCOEM Chapter (BRC), your gateway to decentralized development and blockchain programming at RCOEM"
         />
         <meta property="og:type" content="website" />
-        <meta
-          property="og:image"
-          content="https://blockchain-rcoem-chapter.vercel.app/static/media/brc-logo.afe4cca69f17ea1bd713da3bd05654ab.svg"
-        />
         <meta
           property="og:url"
           content="https://blockchainrcoemchapter.co.in/"

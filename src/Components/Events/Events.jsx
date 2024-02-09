@@ -24,10 +24,6 @@ function Events() {
         />
         <meta property="og:type" content="website" />
         <meta
-          property="og:image"
-          content="https://blockchain-rcoem-chapter.vercel.app/static/media/brc-logo.afe4cca69f17ea1bd713da3bd05654ab.svg"
-        />
-        <meta
           property="og:url"
           content="https://blockchainrcoemchapter.co.in/events"
         />
