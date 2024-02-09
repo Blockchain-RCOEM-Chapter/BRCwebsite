@@ -22,6 +22,7 @@ function Home() {
           content="Visit the official website of Blockchain RCOEM Chapter (BRC), your gateway to decentralized development and blockchain programming at RCOEM"
         />
         <meta property="og:title" content="BLOCKCHAIN RCOEM CHAPTER" />
+        <meta property="og:site_name" content="BLOCKCHAIN RCOEM CHAPTER" />
         <meta
           property="og:description"
           content="Visit the official website of Blockchain RCOEM Chapter (BRC), your gateway to decentralized development and blockchain programming at RCOEM"

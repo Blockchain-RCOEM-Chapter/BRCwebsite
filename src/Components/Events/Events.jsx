@@ -19,6 +19,10 @@ function Events() {
         />
         <meta property="og:title" content="EVENTS | BLOCKCHAIN RCOEM CHAPTER" />
         <meta
+          property="og:site_name"
+          content="EVENTS | BLOCKCHAIN RCOEM CHAPTER"
+        />
+        <meta
           property="og:description"
           content="Discover blockchain at RCOEM Chapter's event. Explore applications, network with experts, and be part of the revolution. Secure your spot now!"
         />

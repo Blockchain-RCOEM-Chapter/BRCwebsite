@@ -41,6 +41,10 @@ function Team() {
         />
         <meta property="og:title" content="TEAM | BLOCKCHAIN RCOEM CHAPTER" />
         <meta
+          property="og:site_name"
+          content="TEAM | BLOCKCHAIN RCOEM CHAPTER"
+        />
+        <meta
           property="og:description"
           content="Meet our Blockchain RCOEM team—passionate about tech innovation, making a positive impact. Explore the minds behind the revolution!"
         />

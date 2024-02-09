@@ -173,14 +173,6 @@
       "branch": "2nd Year DS",
       "instaid": "https://www.instagram.com/javeria_arif_/",
       "linkedinid": "https://www.linkedin.com/in/javeria-mahreen-3111a1256/"
-    },
-    {
-      "photoUrl": "https://i.ibb.co/B4hrDwr/chaitanya.jpg",
-      "name": " Chaitanya Hadge ",
-      "role": "Member",
-      "branch": "2nd Year Mech",
-      "instaid": "https://www.instagram.com/aynatiahc_7/",
-      "linkedinid": "https://www.linkedin.com/in/chaitanya-h-8184b8226/"
     }
   ],
   "graphicsMember": [
@@ -191,14 +183,6 @@
       "branch": "3rd Year AIML",
       "instaid": "https://www.instagram.com/atishhh_09/",
       "linkedinid": "https://www.linkedin.com/in/aatishsingh-kachhaway-257249226"
-    },
-    {
-      "photoUrl": "https://i.ibb.co/Q8bQ8Nq/aryankhokhle.jpg",
-      "name": "Aryan Khokle",
-      "role": "Member",
-      "branch": "3rd Year CSE",
-      "instaid": "https://www.instagram.com/aryan_0310_/",
-      "linkedinid": "https://www.linkedin.com/in/aryan-khokle-490a2322a/"
     },
     {
       "photoUrl": "https://i.ibb.co/cXzGQrP/diwyanchwadodkar.jpg",
@@ -292,7 +276,7 @@
       "linkedinid": "https://www.linkedin.com/in/diya-bhagat-b261b3258"
     },
     {
-      "photoUrl": "https://i.ibb.co/Wg90xkG/madhujagrawal.jpg",
+      "photoUrl": "https://i.ibb.co/HX7SxL1/madhujagrawal.jpg",
       "name": "Madhuj Agrawal",
       "role": "Member",
       "branch": "2nd Year CSE",

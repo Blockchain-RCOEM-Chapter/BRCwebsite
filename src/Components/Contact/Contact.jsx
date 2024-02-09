@@ -22,6 +22,10 @@ function Contact() {
           content="CONATACT US | BLOCKCHAIN RCOEM CHAPTER"
         />
         <meta
+          property="og:site_name"
+          content="CONATACT US | BLOCKCHAIN RCOEM CHAPTER"
+        />
+        <meta
           property="og:description"
           content="Connect with Blockchain RCOEM. Have questions or ideas? Reach out—we're here to help. Let's collaborate and shape the future together!"
         />
