@@ -11,7 +11,8 @@
   width: 80%;
   display: flex;
   margin: 1em;
-  padding: 1em;
+  margin-bottom: 2em;
+  /* padding: 1em; */
 }
 
 .event-img1 {
@@ -77,6 +78,7 @@
   }
   #event1 {
     width: 100%;
+    margin-bottom: 2em;
   }
   #event2 {
     flex-direction: column-reverse;
