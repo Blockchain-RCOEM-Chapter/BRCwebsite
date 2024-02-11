@@ -1,4 +1,5 @@
 .Contact {
+  height: fit-content;
   width: 100vw;
   margin-top: 10vh;
   background: url("./Images/back\ .jpeg");
@@ -9,15 +10,18 @@
   overflow: hidden;
   overflow-x: hidden;
 }
+.contacttext {
+  margin: auto;
+}
 
 .heading {
   font-family: "Inter", sans-serif;
-  border-left: 11px solid #5109ad;
-
+  border-left: 7px solid #5109ad;
+  border-width: 8px;
   color: white;
-  margin: 2em 1.5em;
+  margin: 0.8em 0.8em;
   padding-left: 0.7em;
-  font-size: 70px;
+  font-size: 4rem;
   overflow-y: hidden;
 }
 

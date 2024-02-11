@@ -8,6 +8,7 @@ import Events from "./Components/Events/Events";
 import LoadingSpinner from "./Components/Loading Spinner/LoadingSpinner";
 import Team from "./Components/Team/Team";
 import BlogPageTemplate from "./Components/Blogs/BlogPageTemplate";
+import BlogSection from "./Components/Blogs/BlogSection";
 function App() {
   const [isLoaded, setisLoaded] = useState(false);
 
@@ -28,6 +29,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/blog/:key" element={<BlogPageTemplate />} />
+          <Route path="/blogs" element={<BlogSection />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/team" element={<Team />} />
           <Route path="/events" element={<Events />} />

@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300;400&family=Readex+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+#BlogTemplate {
+  width: 100%;
+  margin-top: 10vh;
+  padding: 5% 20%;
+  display: flex;
+  flex-direction: column;
+  background: url("./Images/blog-tempate-bg.png");
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#BlogTemplate h1 {
+  font-size: 5em;
+  font-family: "Readex Pro", sans-serif;
+}
+#BlogTemplate h2 {
+  font-size: 2em;
+  font-family: "Readex Pro", sans-serif;
+}
+#BlogTemplate p {
+  font-size: 1.3em;
+  margin: 2em 0px;
+  font-family: "Inter", sans-serif;
+}
+
+#BlogTemplate > * {
+  width: 60%;
+}
+
+#blog-introduction {
+  font-family: "Inter", sans-serif;
+  margin-bottom: 3em;
+  margin-left: 1em;
+  display: flex;
+}
+#blog-introduction img {
+  width: 5em;
+  height: 5em;
+}
+#blog-introduction span {
+  display: flex;
+  margin-left: 1em;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+#blog-introduction span p {
+  margin: 0%;
+}

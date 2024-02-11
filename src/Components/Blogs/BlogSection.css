@@ -1,0 +1,84 @@
+#BlogSection {
+  width: 100%;
+  margin-top: 10vh;
+  background: url("./Images/blog-tempate-bg.png");
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#blog-landingpage {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 90vh;
+}
+#blog-landingpage * {
+  width: 48%;
+}
+#blog-landingpage h2 {
+  padding-left: 1em;
+  font-size: 4.5em;
+  font-weight: lighter;
+  font-family: "Readex Pro", sans-serif;
+}
+
+#blog-allblogs {
+  width: 100%;
+  padding: 2em 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.oneblog {
+  width: 25em;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: rgba(0, 0, 0, 0.247);
+}
+.oneblog img {
+  width: 94%;
+  border-radius: calc(18px - 0.75em);
+  height: 10em;
+  margin-top: 0.75em;
+}
+.oneblog * {
+  margin: 0% 3%;
+}
+.oneblog h2 {
+  font-family: "Readex Pro", sans-serif;
+  font-weight: lighter;
+}
+.oneblog p {
+  font-family: "Inter", sans-serif;
+  font-size: 0.9em;
+}
+.oneblog > p {
+  margin-bottom: 1em;
+}
+.oneblog > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.227);
+  padding: 10px 0px;
+  width: 100%;
+  margin: 0%;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+.oneblog > div a {
+  background-color: #a759bb;
+  padding: 10px;
+  color: black;
+  border-radius: 8px;
+  font-family: "Readex Pro", sans-serif;
+  font-weight: bold;
+}

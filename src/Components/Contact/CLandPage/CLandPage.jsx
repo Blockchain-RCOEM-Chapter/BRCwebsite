@@ -12,12 +12,12 @@ function CLandPage() {
       </div>
 
       <div className="home-vector">
-        <p>“We would love to hear </p>
-        <p>from you ! Please feel</p>
-        <p>free to reach out to us with </p>
-        <p> any questions or comments</p>
-        <p> using the contact form </p>
-        <p> below!!!”.</p>
+        <p>“We welcome your feedback, </p>
+        <p>Don't hesitate to get in touch</p>
+        <p>with any questions or comments </p>
+        <p> through the contact form below.</p>
+        <p> We look forward to hearing from </p>
+        <p>you!"</p>
       </div>
       <div className="home-side-img"></div>
     </div>

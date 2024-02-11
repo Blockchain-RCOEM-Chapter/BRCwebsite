@@ -1,7 +1,8 @@
 import React from "react";
 import jsondata from "./BlogsData.json";
 import { useParams } from "react-router-dom";
-import bg from "../Home/Images/brc-logo.svg";
+import bg from "./Images/brc-bordered-logo.png";
+import "./BlogPageTemplate.css";
 
 function BlogPageTemplate() {
   const { key } = useParams();
@@ -14,7 +15,7 @@ function BlogPageTemplate() {
     <div id="BlogTemplate">
       <h1>{filteredData.title}</h1>
       <div id="blog-introduction">
-        <img src={bg} alt="" />
+        <img src={bg} />
         <span>
           <p>Content Team - Blockchain Rcoem Chapter</p>
           <p>{`Published on ${filteredData.date} · ${filteredData.readtime} read`}</p>
