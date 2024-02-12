@@ -15,16 +15,31 @@
   justify-content: space-evenly;
   height: 90vh;
 }
-#blog-landingpage * {
-  width: 48%;
-}
+
 #blog-landingpage h2 {
+  width: 40%;
   padding-left: 1em;
-  font-size: 4.5em;
+  font-size: 4em;
   font-weight: lighter;
   font-family: "Readex Pro", sans-serif;
 }
 
+@media screen and (max-width: 720px) {
+  #blog-landingpage {
+    flex-direction: column;
+  }
+  #blog-landingpage h2 {
+    width: 90%;
+    font-size: 2.5em;
+    padding-left: 0%;
+  }
+  #blog-landingpage img {
+    width: 90%;
+  }
+  .oneblog {
+    width: 20em;
+  }
+}
 #blog-allblogs {
   width: 100%;
   padding: 2em 0px;
@@ -34,6 +49,7 @@
   flex-wrap: wrap;
 }
 .oneblog {
+  margin: 1em;
   width: 25em;
   border-radius: 18px;
   display: flex;

@@ -343,5 +343,23 @@
       "instaid": "https://www.instagram.com/nisha_jain_1003/",
       "linkedinid": "https://www.linkedin.com/in/nisha-jain-75a22922a/"
     }
+  ],
+  "mainbody": [
+    {
+      "photoUrl": "https://i.ibb.co/QKzMxKF/Dr-Ramchand-Hablani-3.jpg",
+      "name": "Dr. Ramchand Hablani",
+      "role": "HOD(CSE)",
+      "branch": "CSE Department",
+      "instaid": "#",
+      "linkedinid": "#"
+    },
+    {
+      "photoUrl": "https://i.ibb.co/phrh9G5/Screenshot-20240212-205831-Linked-In.jpg",
+      "name": "Dr. Abhijeet R. Raipurkar",
+      "role": "Faculty Incharge",
+      "branch": "CSE Department",
+      "instaid": "#",
+      "linkedinid": "https://www.linkedin.com/in/dr-abhijeet-r-raipurkar-ph-d-cse-360b00136?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    }
   ]
 }

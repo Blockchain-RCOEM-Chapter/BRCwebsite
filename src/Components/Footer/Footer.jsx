@@ -93,7 +93,7 @@ function Footer() {
 
       {/* Container for Devloped By names in Phone Screen Size */}
       <div className="phonesized-devlopedby-L">
-        <p>Made with ❤️ By </p>
+        <p>Designed and Developed By </p>
         <span>BLOCKCHAIN RCOEM CHAPTER</span>
       </div>
     </footer>

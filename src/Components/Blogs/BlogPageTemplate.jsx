@@ -3,6 +3,7 @@ import jsondata from "./BlogsData.json";
 import { useParams } from "react-router-dom";
 import bg from "./Images/brc-bordered-logo.png";
 import "./BlogPageTemplate.css";
+import { Helmet } from "react-helmet-async";
 
 function BlogPageTemplate() {
   const { key } = useParams();
@@ -12,27 +13,45 @@ function BlogPageTemplate() {
     return "NO BLOG FOUND";
   }
   return (
-    <div id="BlogTemplate">
-      <h1>{filteredData.title}</h1>
-      <div id="blog-introduction">
-        <img src={bg} />
-        <span>
-          <p>Content Team - Blockchain Rcoem Chapter</p>
-          <p>{`Published on ${filteredData.date} · ${filteredData.readtime} read`}</p>
-        </span>
+    <>
+      <Helmet>
+        <title>{filteredData.title}</title>
+        <meta name="description" content={filteredData.shortsummary} />
+        <meta property="og:title" content={filteredData.title} />
+        <meta property="og:site_name" content={filteredData.title} />
+        <meta property="og:description" content={filteredData.shortsummary} />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content={`https://blockchainrcoemchapter.co.in/blog/${filteredData.searchkey}`}
+        />
+        <link
+          rel="cononical"
+          href={`https://blockchainrcoemchapter.co.in/blog/${filteredData.searchkey}`}
+        />
+      </Helmet>
+      <div id="BlogTemplate">
+        <h1>{filteredData.title}</h1>
+        <div id="blog-introduction">
+          <img src={bg} />
+          <span>
+            <p>Content Team - Blockchain Rcoem Chapter</p>
+            <p>{`Published on ${filteredData.date} · ${filteredData.readtime} read`}</p>
+          </span>
+        </div>
+        {filteredData.material.map((item, index) => {
+          if (item.tag === "img") {
+            return <img key={index} src={item.src} alt={`Image ${index}`} />;
+          } else if (item.tag === "h2") {
+            return <h2 key={index}>{item.content}</h2>;
+          } else if (item.tag === "p") {
+            return <p key={index}>{item.content}</p>;
+          } else {
+            return null;
+          }
+        })}
       </div>
-      {filteredData.material.map((item, index) => {
-        if (item.tag === "img") {
-          return <img key={index} src={item.src} alt={`Image ${index}`} />;
-        } else if (item.tag === "h2") {
-          return <h2 key={index}>{item.content}</h2>;
-        } else if (item.tag === "p") {
-          return <p key={index}>{item.content}</p>;
-        } else {
-          return null;
-        }
-      })}
-    </div>
+    </>
   );
 }
 
