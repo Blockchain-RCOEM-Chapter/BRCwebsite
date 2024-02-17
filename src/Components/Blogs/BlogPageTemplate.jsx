@@ -12,6 +12,10 @@ function BlogPageTemplate() {
   if (!filteredData) {
     return "NO BLOG FOUND";
   }
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
   return (
     <>
       <Helmet>
@@ -33,7 +37,7 @@ function BlogPageTemplate() {
       <div id="BlogTemplate">
         <h1>{filteredData.title}</h1>
         <div id="blog-introduction">
-          <img src={bg} />
+          <img src={bg} alt="" />
           <span>
             <p>Content Team - Blockchain Rcoem Chapter</p>
             <p>{`Published on ${filteredData.date} · ${filteredData.readtime} read`}</p>
@@ -41,7 +45,7 @@ function BlogPageTemplate() {
         </div>
         {filteredData.material.map((item, index) => {
           if (item.tag === "img") {
-            return <img key={index} src={item.src} alt={`Image ${index}`} />;
+            return <img key={index} src={item.src} alt="" />;
           } else if (item.tag === "h2") {
             return <h2 key={index}>{item.content}</h2>;
           } else if (item.tag === "p") {

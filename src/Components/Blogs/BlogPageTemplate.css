@@ -3,8 +3,9 @@
 #BlogTemplate {
   width: 100%;
   margin-top: 10vh;
-  padding: 5% 20%;
   display: flex;
+  padding-bottom: 3em;
+  align-items: center;
   flex-direction: column;
   background: url("./Images/blog-tempate-bg.png");
   color: white;
@@ -17,13 +18,16 @@
   font-size: 5em;
   font-family: "Readex Pro", sans-serif;
 }
+#BlogTemplate > img {
+  margin: 1em 0px;
+}
 #BlogTemplate h2 {
   font-size: 2em;
   font-family: "Readex Pro", sans-serif;
 }
 #BlogTemplate p {
   font-size: 1.3em;
-  margin: 2em 0px;
+  margin: 0.5em 0px;
   font-family: "Inter", sans-serif;
 }
 
@@ -39,6 +43,7 @@
 }
 #blog-introduction img {
   width: 5em;
+  margin: auto 0px;
   height: 5em;
 }
 #blog-introduction span {
@@ -50,4 +55,33 @@
 }
 #blog-introduction span p {
   margin: 0%;
+}
+
+@media screen and (max-width: 750px) {
+  #BlogTemplate h1 {
+    font-size: 2.2em;
+    text-wrap: balance;
+  }
+  #BlogTemplate > * {
+    width: 85%;
+  }
+  #BlogTemplate p {
+    font-size: 1em;
+  }
+  #BlogTemplate h2 {
+    font-size: 1.5em;
+  }
+  #blog-introduction {
+    font-family: "Inter", sans-serif;
+    margin-bottom: 1em;
+  }
+  #blog-introduction img {
+    width: 3em;
+    height: 3em;
+  }
+  #blog-introduction span p {
+    margin: 0%;
+    font-size: 1em;
+    margin-left: 0em;
+  }
 }

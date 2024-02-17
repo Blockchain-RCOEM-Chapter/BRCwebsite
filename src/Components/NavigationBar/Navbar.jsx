@@ -85,6 +85,30 @@ function Navbar() {
             TEAM
           </li>
         </NavLink>
+
+        {/* REMOVE THIS COMMENT ON BLOG SECTION RELEASE
+
+        <NavLink to="/blogs">
+          <li
+            onClick={() => {
+              setisBurgerActive(false);
+            }}
+            style={
+              isPhone
+                ? isBurgerActive
+                  ? { transform: `translateX(0%)` }
+                  : { transform: `translateX(${100 * ++counter}%)` }
+                : {}
+            }
+          >
+            <i
+              className="fa-solid fa-file-pen"
+              style={{ color: "#ffffff" }}
+            ></i>
+            BLOGS
+          </li>
+        </NavLink> */}
+
         <NavLink to="/contact">
           <li
             onClick={() => {

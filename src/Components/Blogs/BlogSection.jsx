@@ -20,6 +20,10 @@ const allBlog = () => {
 };
 
 function BlogSection() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
   return (
     <>
       <Helmet>
@@ -48,7 +52,9 @@ function BlogSection() {
         <div id="blog-landingpage">
           <h2>Simplify, Explore, and Connect with Blockchain Blog Wisdom</h2>
           <img src={img} alt="" />
+          <i class="fa-solid fa-angles-down"></i>
         </div>
+        <h1 className="our-home-heading">OUR RECENTS BLOGS</h1>
         <div id="blog-allblogs">{allBlog()}</div>
       </div>
     </>
