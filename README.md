@@ -31,3 +31,4 @@ Clone this repository to your local development environment:
 
 # Catch this Website live
 https://blockchain-rcoem-chapter.vercel.app/
+https://blockchainrcoemchapter.co.in/
