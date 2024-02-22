@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
+import brcLogo from "../Home/Images/brc-logo.svg";
 import "./Navbar.css";
 
 function Navbar() {
@@ -15,7 +16,10 @@ function Navbar() {
   return (
     <nav>
       {/* It will Conatain  logo */}
-      <Link to="/" className="logo"></Link>
+      <Link to="/" className="logo">
+        {" "}
+        <img src={brcLogo} alt="" />{" "}
+      </Link>
 
       {/* It will contain the BRC text  */}
       <div className="brc">

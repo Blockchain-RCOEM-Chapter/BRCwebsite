@@ -4,7 +4,7 @@ function EventLandingPage() {
   return (
     <div className="EventLandingPage">
       <div className="EventLandingPageLeft">
-        <h1>Explore, Develop,Thrive</h1>
+        <h1>Explore, Develop, Thrive</h1>
         <p>
           The chapter excels in crafting outstanding events – from workshops to
           webinars and intra-college activities. We foster exploration and skill
