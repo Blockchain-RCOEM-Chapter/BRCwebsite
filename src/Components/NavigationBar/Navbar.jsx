@@ -90,8 +90,6 @@ function Navbar() {
           </li>
         </NavLink>
 
-        {/* REMOVE THIS COMMENT ON BLOG SECTION RELEASE
-
         <NavLink to="/blogs">
           <li
             onClick={() => {
@@ -111,7 +109,7 @@ function Navbar() {
             ></i>
             BLOGS
           </li>
-        </NavLink> */}
+        </NavLink>
 
         <NavLink to="/contact">
           <li
