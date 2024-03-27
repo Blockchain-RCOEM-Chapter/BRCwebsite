@@ -238,7 +238,7 @@
           "tag": "img",
           "src": "https://i.ibb.co/KsbQZfB/PIC4.jpg"
         },
-        { "tag": "h2", "content": "5. Fort Knox Security:" },
+        { "tag": "h2", "content": "" },
         {
           "tag": "p",
           "content": "Furthermore, smart contracts have the power to democratize access to financial services. In regions where traditional banking infrastructure is lacking, smart contracts provide an alternative means of conducting financial transactions securely and efficiently. This has the potential to empower millions of unbanked individuals around the world, opening up new opportunities for economic inclusion and growth."
