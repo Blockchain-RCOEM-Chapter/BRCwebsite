@@ -7,7 +7,7 @@ import { Helmet } from "react-helmet-async";
 
 const allBlog = () => {
   return data.data.map((blog, index) => (
-    <div className="oneblog">
+    <div className="oneblog" key={index}>
       <img src={blog.thumbnailimg} alt="" />
       <h2>{blog.title}</h2>
       <p>{blog.shortsummary}</p>

@@ -30,6 +30,26 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://blockchainrcoemchapter.co.in/blog/blockchainsupplychainmanagement</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blockchainrcoemchapter.co.in/blog/smartcontracts</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blockchainrcoemchapter.co.in/blog/crytocurrencies</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blockchainrcoemchapter.co.in/blog/applicationsofblockchain</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
 
 </urlset>
