@@ -4,33 +4,42 @@
       "searchkey": "decentralized-applications",
       "title": "Understanding Decentralized Applications (DApps)",
       "thumbnailimg": "https://www.capitalnumbers.com/blog/wp-content/uploads/2023/03/CN_Blog_Banner_Understanding_the_Basics_of_Decentralized_Applications__dApps_.png",
-      "date": "23 July 2024",
+      "date": "24 July 2024",
       "readtime": "5 min",
       "shortsummary": "Explore what Decentralized Applications (DApps) are, how they work, their benefits, challenges, and their potential future impact.",
       "material": [
+        {
+          "tag": "img",
+          "src": "https://aglowiditsolutions.com/wp-content/uploads/2023/01/What-is-DApp.png"
+        },
         { "tag": "h2", "content": "What are DApps?" },
         {
           "tag": "p",
           "content": "Decentralized Applications, or DApps, are applications that run on a decentralized network of computers (often a blockchain). Unlike traditional applications that rely on centralized servers, DApps operate on a peer-to-peer network of nodes, making them decentralized, transparent, and often more secure."
         },
         { "tag": "h2", "content": "How do DApps work?" },
-        { "tag": "p", "content": "1. *Blockchain Foundation*: Most DApps are built on blockchain platforms like Ethereum, EOS, or TRON. These platforms provide the infrastructure needed for the DApp to function, including consensus mechanisms and smart contract capabilities." },
-        { "tag": "p", "content": "2. *Smart Contracts*: Smart contracts are self-executing contracts with the terms of the agreement directly written into code. They automate processes, ensure transparency, and eliminate the need for intermediaries." },
-        { "tag": "p", "content": "3. *Decentralized Storage*: DApps often use decentralized storage systems to store data securely across multiple nodes, enhancing resilience and security." },
+        { "tag": "p", "content": "1. Blockchain Foundation: Most DApps are built on blockchain platforms like Ethereum, EOS, or TRON. These platforms provide the infrastructure needed for the DApp to function, including consensus mechanisms and smart contract capabilities." },
+        { "tag": "p", "content": "2. Smart Contracts: Smart contracts are self-executing contracts with the terms of the agreement directly written into code. They automate processes, ensure transparency, and eliminate the need for intermediaries." },
+        { "tag": "p", "content": "3. Decentralized Storage: DApps often use decentralized storage systems to store data securely across multiple nodes, enhancing resilience and security." },
         { "tag": "h2", "content": "Types of DApps" },
         { "tag": "p", "content": "DApps can be categorized into three types based on their functionality:" },
-        { "tag": "p", "content": "1. *Financial DApps*: These include decentralized exchanges (DEXs), lending platforms, and payment systems that enable financial transactions without intermediaries." },
-        { "tag": "p", "content": "2. *Governance DApps*: These focus on decentralized governance models, allowing participants to vote on protocol changes and other governance issues." },
-        { "tag": "p", "content": "3. *Utility DApps*: These serve various purposes such as identity verification, supply chain tracking, and decentralized social networks." },
+        { "tag": "p", "content": "1. Financial DApps: These include decentralized exchanges (DEXs), lending platforms, and payment systems that enable financial transactions without intermediaries." },
+        { "tag": "p", "content": "2. Governance DApps: These focus on decentralized governance models, allowing participants to vote on protocol changes and other governance issues." },
+        { "tag": "p", "content": "3. Utility DApps: These serve various purposes such as identity verification, supply chain tracking, and decentralized social networks." },
         { "tag": "h2", "content": "Benefits of DApps" },
-        { "tag": "p", "content": "1. *Transparency*: DApps operate on open, transparent protocols, making all transactions and data accessible to participants." },
-        { "tag": "p", "content": "2. *Security*: By leveraging blockchain technology and cryptographic algorithms, DApps can be more resistant to hacking and data breaches compared to centralized apps." },
-        { "tag": "p", "content": "3. *Censorship Resistance*: DApps are resistant to censorship since they do not rely on single points of control." },
-        { "tag": "p", "content": "4. *Interoperability*: DApps can interact with each other seamlessly, fostering a more interconnected ecosystem." },
+        { "tag": "p", "content": "1. Transparency: DApps operate on open, transparent protocols, making all transactions and data accessible to participants." },
+        { "tag": "p", "content": "2. Security: By leveraging blockchain technology and cryptographic algorithms, DApps can be more resistant to hacking and data breaches compared to centralized apps." },
+        { "tag": "p", "content": "3. Censorship Resistance: DApps are resistant to censorship since they do not rely on single points of control." },
+        { "tag": "p", "content": "4. Interoperability: DApps can interact with each other seamlessly, fostering a more interconnected ecosystem." },
         { "tag": "h2", "content": "Challenges and Considerations" },
-        { "tag": "p", "content": "1. *Scalability*: Many blockchain platforms struggle with scalability, limiting the number of transactions DApps can handle." },
-        { "tag": "p", "content": "2. *User Experience*: The user interface and experience of DApps often lag behind centralized applications, posing a barrier to mainstream adoption." },
-        { "tag": "p", "content": "3. *Regulatory Uncertainty*: DApps operate in a regulatory gray area in many jurisdictions, which could impact their development and adoption." },
+        { "tag": "p", "content": "1. Scalability: Many blockchain platforms struggle with scalability, limiting the number of transactions DApps can handle." },
+        { "tag": "p", "content": "2. User Experience: The user interface and experience of DApps often lag behind centralized applications, posing a barrier to mainstream adoption." },
+        { "tag": "p", "content": "3. Regulatory Uncertainty: DApps operate in a regulatory gray area in many jurisdictions, which could impact their development and adoption." },
+        { "tag": "h2", "content": "Top Blockchain DApps" },
+        {
+          "tag":"img",
+          "src":"https://miro.medium.com/v2/resize:fit:828/format:webp/1*J7dX0B_Qb8NiUus-hDAg0g.jpeg"
+        },
         { "tag": "h2", "content": "Future Outlook" },
         {
           "tag": "p",
@@ -49,7 +58,8 @@
           "content": "Remember, the world of DApps is dynamic and constantly evolving. Stay informed, explore new projects, and embrace the decentralized future."
         }
       ]
-    },
+    },    
+
     {
       "searchkey": "blockchainvsclassicdatabase",
       "title": "Exploring the Tech Frontier : Blockchain vs. Classic Databases",
