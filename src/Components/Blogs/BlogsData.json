@@ -9,7 +9,7 @@
       "shortsummary": "Decentralized Finance (DeFi) is revolutionizing the financial landscape by leveraging blockchain technology to create an open, transparent, and permissionless financial ecosystem.",
       "material": [
         {
-          "tag": "p",
+          "tag": "h2",
           "content": "What is Decentralized Finance (DeFi)? "
           
         },
@@ -21,10 +21,11 @@
         },
         {
           "tag": "img",
-          "src": "https://i.postimg.cc/wj8DLCyc/12291205-Wavy-Tech-28-Single-02.jpg"
+          "src": "https://i.postimg.cc/vmHR8Szb/2149074560.jpg"
         },
+       
         {
-          "tag": "p",
+          "tag": "h2",
           "content": "How DeFi Works: "
 
 
@@ -51,12 +52,9 @@
           "content": "DeFi relies on cryptocurrencies as the primary medium of exchange and value. These can be native tokens of the blockchain (like ETH on Ethereum)."
 
         },
+        
         {
-          "tag": "img",
-          "src": "https://i.postimg.cc/8cxMy3yG/3530058-64637.jpg"
-        },
-        {
-          "tag": "p",
+          "tag": "h2",
           "content": " Key Components of DeFi: "
 
         },
@@ -87,11 +85,11 @@
      
         {
           "tag": "img",
-          "src": "https://i.postimg.cc/156JkcDB/19931742-6193706.jpg"
+          "src": "https://i.postimg.cc/jjC8FVcw/2148569107.jpg"
         },
         
         {
-          "tag": "p",
+          "tag": "h2",
           "content": "Advantages of DeFi: "
         },
         {
@@ -103,7 +101,7 @@
           "content": "Furthermore, DeFi enhances security and fosters innovation. Users retain control over their assets, minimizing the risk of loss due to centralized failures, with security ensured through blockchain technology and cryptography. The rapidly evolving DeFi ecosystem continually introduces new financial products and services, providing users with unprecedented flexibility. Operating globally and permissionlessly, DeFi is accessible 24/7 without geographical restrictions, offering a truly borderless financial system."
         },
         {
-          "tag": "p",
+          "tag": "h2",
           "content": "Challenges and Risks of DeFi: "
         },
         {
@@ -116,11 +114,11 @@
         },
         {
           "tag": "img",
-          "src": "https://i.postimg.cc/W4p8qBCY/20289194-6273376.jpg"
+          "src": "https://i.postimg.cc/K8pfLqbZ/2149250217.jpg"
         },
 
         {
-          "tag": "p",
+          "tag": "h2",
           "content": "The Future of DeFi: "
  
         },
@@ -133,10 +131,7 @@
           "tag": "p",
           "content": "Furthermore, DeFi enhances security and fosters innovation. Users retain control over their assets, minimizing the risk of loss due to centralized failures, with security ensured through blockchain technology and cryptography. The rapidly evolving DeFi ecosystem continually introduces new financial products and services, providing users with unprecedented flexibility. Operating globally and permissionlessly, DeFi is accessible 24/7 without geographical restrictions, offering a truly borderless financial system."
         },
-        {
-          "tag": "img",
-          "src": "https://i.postimg.cc/wj8DLCyc/12291205-Wavy-Tech-28-Single-02.jpg"
-        },
+       
 
         {
           "tag": "p",
