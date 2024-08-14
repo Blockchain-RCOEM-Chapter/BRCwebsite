@@ -17,7 +17,7 @@
   height: 90vh;
 }
 
-#blog-landingpage h2 {
+#blog-landingpage > h2 {
   width: 40%;
   padding-left: 1em;
   font-size: 4em;
