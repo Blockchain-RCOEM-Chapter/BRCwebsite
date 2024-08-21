@@ -16,6 +16,23 @@ function BlogPageTemplate() {
     top: 0,
     behavior: "smooth",
   });
+  const processContent = (content) => {
+    const colonIndex = content.indexOf(":");
+    if (colonIndex !== -1) {
+      const beforeColon = content.substring(0, colonIndex + 1).trim();
+      const afterColon = content.substring(colonIndex + 1).trim();
+      const wordsCount = beforeColon.split(" ").length;
+
+      if (wordsCount <= 10) {
+        return (
+          <>
+            <strong>{beforeColon}</strong> {afterColon}
+          </>
+        );
+      }
+    }
+    return content;
+  };
   return (
     <>
       <Helmet>
@@ -49,7 +66,7 @@ function BlogPageTemplate() {
           } else if (item.tag === "h2") {
             return <h2 key={index}>{item.content}</h2>;
           } else if (item.tag === "p") {
-            return <p key={index}>{item.content}</p>;
+            return <p key={index}>{processContent(item.content)}</p>;
           } else {
             return null;
           }
