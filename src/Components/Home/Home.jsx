@@ -16,16 +16,16 @@ function Home() {
   return (
     <>
       <Helmet>
-        <title>HOME | BLOCKCHAIN RCOEM CHAPTER</title>
+        <title>HOME | BLOCKCHAIN RBU CHAPTER</title>
         <meta
           name="description"
-          content="Visit the official website of Blockchain RCOEM Chapter (BRC), your gateway to decentralized development and blockchain programming at RCOEM"
+          content="Visit the official website of Blockchain RBU Chapter (BRC), your gateway to decentralized development and blockchain programming at RBU"
         />
-        <meta property="og:title" content="BLOCKCHAIN RCOEM CHAPTER" />
-        <meta property="og:site_name" content="BLOCKCHAIN RCOEM CHAPTER" />
+        <meta property="og:title" content="BLOCKCHAIN RBU CHAPTER" />
+        <meta property="og:site_name" content="BLOCKCHAIN RBU CHAPTER" />
         <meta
           property="og:description"
-          content="Visit the official website of Blockchain RCOEM Chapter (BRC), your gateway to decentralized development and blockchain programming at RCOEM"
+          content="Visit the official website of Blockchain RBU Chapter (BRC), your gateway to decentralized development and blockchain programming at RBU"
         />
         <meta property="og:type" content="website" />
         <meta
@@ -44,13 +44,13 @@ function Home() {
             MEET OUR TEAM <i className="fa-solid fa-people-group "></i>
           </button>
         </Link>
-        <h1 className="our-home-heading">UPCOMING EVENTS</h1>
+        {/* <h1 className="our-home-heading">UPCOMING EVENTS</h1>
         <RecentEvents />
         <Link to="/events">
           <button className="our-home-btn">
             MORE EVENTS <i class="fa-solid fa-calendar-check "></i>
           </button>
-        </Link>
+        </Link> */}
         <h1 className="our-home-heading">Frequently Asked Questions</h1>
         <FAQ />
       </div>

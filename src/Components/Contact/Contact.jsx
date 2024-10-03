@@ -12,22 +12,22 @@ function Contact() {
   return (
     <>
       <Helmet>
-        <title>CONTACT US | BLOCKCHAIN RCOEM CHAPTER</title>
+        <title>CONTACT US | BLOCKCHAIN RBU CHAPTER</title>
         <meta
           name="description"
-          content="Connect with Blockchain RCOEM. Have questions or ideas? Reach out—we're here to help. Let's collaborate and shape the future together!"
+          content="Connect with Blockchain RBU. Have questions or ideas? Reach out—we're here to help. Let's collaborate and shape the future together!"
         />
         <meta
           property="og:title"
-          content="CONATACT US | BLOCKCHAIN RCOEM CHAPTER"
+          content="CONATACT US | BLOCKCHAIN RBU CHAPTER"
         />
         <meta
           property="og:site_name"
-          content="CONATACT US | BLOCKCHAIN RCOEM CHAPTER"
+          content="CONATACT US | BLOCKCHAIN RBU CHAPTER"
         />
         <meta
           property="og:description"
-          content="Connect with Blockchain RCOEM. Have questions or ideas? Reach out—we're here to help. Let's collaborate and shape the future together!"
+          content="Connect with Blockchain RBU. Have questions or ideas? Reach out—we're here to help. Let's collaborate and shape the future together!"
         />
         <meta property="og:type" content="website" />
         <meta

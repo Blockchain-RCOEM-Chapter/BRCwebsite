@@ -8,14 +8,12 @@ function LandingPage() {
       <img src={logo} id="brc-logo" alt="Club Logo" />
       <div id="headlines">
         <p className="brc">
-          <span>BLOCKCHAIN</span> RCOEM CHAPTER
+          <span>BLOCKCHAIN</span> RBU CHAPTER
         </p>
-        <p className="rcoem">
-          Shri Ramdeobaba College Of Engineering and Management
-        </p>
+        <p className="rcoem">Ramdeobaba University Nagpur</p>
       </div>
       <a
-        href="https://www.instagram.com/blockchain_rcoem_chapter/"
+        href="https://www.instagram.com/blockchain_rbu"
         target="_blank"
         rel="noreferrer"
       >

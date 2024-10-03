@@ -56,7 +56,7 @@ function BlogPageTemplate() {
         <div id="blog-introduction">
           <img src={bg} alt="" />
           <span>
-            <p>Content Team - Blockchain Rcoem Chapter</p>
+            <p>Content Team - Blockchain RBU Chapter</p>
             <p>{`Published on ${filteredData.date} · ${filteredData.readtime} read`}</p>
           </span>
         </div>

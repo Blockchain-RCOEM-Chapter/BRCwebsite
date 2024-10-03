@@ -33,25 +33,22 @@ function Team() {
     setisspinnervisible(true);
     setTimeout(() => {
       setisspinnervisible(false);
-    }, 2000);
+    }, 1000);
   };
 
   return (
     <>
       <Helmet>
-        <title>TEAM | BLOCKCHAIN RCOEM CHAPTER</title>
+        <title>TEAM | BLOCKCHAIN RBU CHAPTER</title>
         <meta
           name="description"
-          content="Meet our Blockchain RCOEM team—passionate about tech innovation, making a positive impact. Explore the minds behind the revolution!"
+          content="Meet our Blockchain RBU team—passionate about tech innovation, making a positive impact. Explore the minds behind the revolution!"
         />
-        <meta property="og:title" content="TEAM | BLOCKCHAIN RCOEM CHAPTER" />
-        <meta
-          property="og:site_name"
-          content="TEAM | BLOCKCHAIN RCOEM CHAPTER"
-        />
+        <meta property="og:title" content="TEAM | BLOCKCHAIN RBU CHAPTER" />
+        <meta property="og:site_name" content="TEAM | BLOCKCHAIN RBU CHAPTER" />
         <meta
           property="og:description"
-          content="Meet our Blockchain RCOEM team—passionate about tech innovation, making a positive impact. Explore the minds behind the revolution!"
+          content="Meet our Blockchain RBU team—passionate about tech innovation, making a positive impact. Explore the minds behind the revolution!"
         />
         <meta property="og:type" content="website" />
         <meta

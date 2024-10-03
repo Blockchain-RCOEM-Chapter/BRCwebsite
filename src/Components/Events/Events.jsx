@@ -12,19 +12,19 @@ function Events() {
   return (
     <>
       <Helmet>
-        <title>EVENTS | BLOCKCHAIN RCOEM CHAPTER</title>
+        <title>EVENTS | BLOCKCHAIN RBU CHAPTER</title>
         <meta
           name="description"
-          content="Discover blockchain at RCOEM Chapter's event. Explore applications, network with experts, and be part of the revolution. Secure your spot now!"
+          content="Discover blockchain at RBU Chapter's event. Explore applications, network with experts, and be part of the revolution. Secure your spot now!"
         />
-        <meta property="og:title" content="EVENTS | BLOCKCHAIN RCOEM CHAPTER" />
+        <meta property="og:title" content="EVENTS | BLOCKCHAIN RBU CHAPTER" />
         <meta
           property="og:site_name"
-          content="EVENTS | BLOCKCHAIN RCOEM CHAPTER"
+          content="EVENTS | BLOCKCHAIN RBU CHAPTER"
         />
         <meta
           property="og:description"
-          content="Discover blockchain at RCOEM Chapter's event. Explore applications, network with experts, and be part of the revolution. Secure your spot now!"
+          content="Discover blockchain at RBU Chapter's event. Explore applications, network with experts, and be part of the revolution. Secure your spot now!"
         />
         <meta property="og:type" content="website" />
         <meta

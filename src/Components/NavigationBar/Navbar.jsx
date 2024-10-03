@@ -23,7 +23,7 @@ function Navbar() {
 
       {/* It will contain the BRC text  */}
       <div className="brc">
-        BLOCKCHAIN <span> RCOEM CHAPTER</span>
+        BLOCKCHAIN <span> RBU CHAPTER</span>
       </div>
 
       {/* It will conatin Navigation elements */}

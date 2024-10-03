@@ -3,7 +3,7 @@ import "./Footer.css";
 
 function Footer() {
   // URLS of the Social Media Accounts
-  const instagramUrl = "https://www.instagram.com/blockchain_rcoem_chapter/";
+  const instagramUrl = "https://www.instagram.com/blockchain_rbu/";
   const youtubeUrl = "https://www.youtube.com/@BlockchainRCOEM";
   const githubUrl = "https://github.com/Blockchain-RCOEM-Chapter";
   const linkedinUrl =
@@ -72,7 +72,7 @@ function Footer() {
       {/* Container for Devloped By names in Phone Screen Size */}
       <div className="phonesized-devlopedby-S">
         <p>Designed and Devloped By </p>
-        <span>BLOCKCHAIN RCOEM CHAPTER</span>
+        <span>BLOCKCHAIN RBU CHAPTER</span>
       </div>
 
       {/* Container Containing Disclosers  */}
@@ -85,7 +85,7 @@ function Footer() {
           <span id="strongcommunity"># Strong-Community</span>
           <span>
             &copy; All rights reserved by{" "}
-            <span id="footer-brc">BlockChain RCOEM Chapter</span>
+            <span id="footer-brc">BlockChain RBU Chapter</span>
           </span>
         </div>
       </div>
@@ -94,7 +94,7 @@ function Footer() {
       {/* Container for Devloped By names in Phone Screen Size */}
       <div className="phonesized-devlopedby-L">
         <p>Designed and Developed By </p>
-        <span>BLOCKCHAIN RCOEM CHAPTER</span>
+        <span>BLOCKCHAIN RBU CHAPTER</span>
       </div>
     </footer>
   );

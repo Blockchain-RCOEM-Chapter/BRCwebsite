@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import "./AllEvents.css";
 import Data from "./data.json";
+import { useNavigate } from "react-router-dom";
 
 function AllEvents() {
   const [isPrevious, setisPrevious] = useState(true);
+  const navigate = useNavigate();
   const generateEventsCards = () => {
     return Data[`${!isPrevious ? "upcomingEvents" : "previousEvents"}`].map(
       (details, index) => (
@@ -77,20 +79,33 @@ function AllEvents() {
             technology.
           </p>
           <div>
-            <div className="reach-out-us-btn">
+            <div
+              className="reach-out-us-btn"
+              style={{
+                cursor: "pointer",
+              }}
+              onClick={() => {
+                navigate("/contact");
+              }}
+            >
               Submit Quiery{" "}
               <i
                 className="fa-solid fa-arrow-up-long"
                 style={{ color: "#ffffff" }}
               ></i>
             </div>
-            <div className="reach-out-us-btn">
+            {/* <div
+              className="reach-out-us-btn"
+              onClick={() => {
+                navigate("/contact");
+              }}
+            >
               Conatct Event Team{" "}
               <i
                 className="fa-solid fa-arrow-up-long"
                 style={{ color: "#ffffff" }}
               ></i>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="reach-out-us-img"></div>

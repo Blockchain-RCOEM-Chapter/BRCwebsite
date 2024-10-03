@@ -57,16 +57,16 @@ function BlogSection() {
   return (
     <>
       <Helmet>
-        <title>BLOGS | BLOCKCHAIN RCOEM CHAPTER</title>
+        <title>BLOGS | BLOCKCHAIN RBU CHAPTER</title>
         <meta
           name="description"
-          content="Visit the official website of Blockchain RCOEM Chapter (BRC), your gateway to decentralized development and blockchain programming at RCOEM"
+          content="Visit the official website of Blockchain RBU Chapter (BRC), your gateway to decentralized development and blockchain programming at RBU"
         />
-        <meta property="og:title" content="BLOG | BLOCKCHAIN RCOEM CHAPTER" />
-        <meta property="og:site_name" content="BLOCKCHAIN RCOEM CHAPTER" />
+        <meta property="og:title" content="BLOG | BLOCKCHAIN RBU CHAPTER" />
+        <meta property="og:site_name" content="BLOCKCHAIN RBU CHAPTER" />
         <meta
           property="og:description"
-          content="Visit the official website of Blockchain RCOEM Chapter (BRC), your gateway to decentralized development and blockchain programming at RCOEM"
+          content="Visit the official website of Blockchain RBU Chapter (BRC), your gateway to decentralized development and blockchain programming at RBU"
         />
         <meta property="og:type" content="website" />
         <meta

@@ -26,6 +26,7 @@ const Card = ({ data }) => {
 
           <div className="imageDiv">
             <img
+              key={data.photoUrl}
               src={data.photoUrl || Photo}
               alt=""
               onError={handleImageError} // Handle image loading error

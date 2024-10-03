@@ -70,7 +70,7 @@ function Domain() {
         <div id="event"></div>
         <p>Events Team</p>
       </div>
-      <div
+      {/* <div
         className="domain-section"
         style={
           isDomainVisible
@@ -80,7 +80,7 @@ function Domain() {
       >
         <div id="video"></div>
         <p>Video Editing Team</p>
-      </div>
+      </div> */}
       <div
         className="domain-section"
         style={
