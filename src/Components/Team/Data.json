@@ -39,7 +39,49 @@
       "branch": "3rd Year CSE",
       "instaid": "#",
       "linkedinid": "https://www.linkedin.com/in/a-satyam-mishra-37a75a277"
+    },
+    {
+      "photoUrl": "/teams/technical/sohelsheikh.jpg",
+      "name": " Sohel Sheikh ",
+      "role": "Member",
+      "branch": "2rd Year IT",
+      "instaid": "https://www.instagram.com/sohel_sheikh05/#",
+      "linkedinid": "https://in.linkedin.com/in/sohel-sheikh-25835129b"
+    },
+    {
+      "photoUrl": "/teams/technical/gunjan.jpg",
+      "name": " Gunjan Ghate ",
+      "role": "Member",
+      "branch": "2rd Year CSE",
+      "instaid": "https://www.instagram.com/gg._gunjann_/",
+      "linkedinid": "https://in.linkedin.com/in/gunjan-ghate-6506b5288"
+    },
+    {
+      "photoUrl": "/teams/technical/mohdshayan.jpg",
+      "name": " Mohd. Shayan Qureshi ",
+      "role": "Member",
+      "branch": "2rd Year CSE",
+      "instaid": "#",
+      "linkedinid": "https://in.linkedin.com/in/mohdshayan"
+    },
+    {
+      "photoUrl": "/teams/technical/shreyaraut.jpg",
+      "name": " Shreya Raut ",
+      "role": "Member",
+      "branch": "2rd Year",
+      "instaid": "https://www.instagram.com/shreyahaha_05/#",
+      "linkedinid": "https://in.linkedin.com/in/shreya-raut-a7211b287"
+    },
+    {
+      "photoUrl": "/teams/technical/shivanshkudesia.jpg",
+      "name": " Shivansh Kudesia ",
+      "role": "Member",
+      "branch": "2rd Year",
+      "instaid": "https://www.instagram.com/_shivansh_kudesia/",
+      "linkedinid": "https://in.linkedin.com/in/shivansh-kudesia"
     }
+
+    
   ],
 
   "eventsMembers": [
