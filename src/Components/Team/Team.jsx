@@ -61,10 +61,10 @@ function Team() {
         />
       </Helmet>
       <div className="Team">
-        <h1 className="teamheading">
+        {/* <h1 className="teamheading">
           Meet <span id="font"> HOD and Faculty Incharge of Our Chapter</span>
         </h1>
-        <div className="presidents">{generateMainBody()}</div>
+        <div className="presidents">{generateMainBody()}</div> */}
         <h1 className="teamheading">
           Meet Our<span id="font"> Team</span>
         </h1>
