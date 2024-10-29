@@ -17,7 +17,7 @@
       "linkedinid": "https://www.linkedin.com/in/aniketraut16/"
     },
     {
-      "photoUrl": "https://i.ibb.co/Gky7FqX/namratadiware.png",
+      "photoUrl": "/teams/technical/namratadiware.jpg",
       "name": "Namrata Diware",
       "role": "Member",
       "branch": "3rd Year AIML",
@@ -25,7 +25,7 @@
       "linkedinid": "https://www.linkedin.com/in/namrata-diware-181491276/"
     },
     {
-      "photoUrl": "https://i.ibb.co/VJSbs9v/manandaxnini.jpg",
+      "photoUrl": "/teams/technical/manandaxnini.jpg",
       "name": "Manan Daxini",
       "role": "Member",
       "branch": "3rd Year ECS",
@@ -33,7 +33,7 @@
       "linkedinid": "https://www.linkedin.com/in/manan-daxini-180b69247/"
     },
     {
-      "photoUrl": "https://i.ibb.co/b1TRLW8/satyammishra.jpg",
+      "photoUrl": "/teams/technical/satyammishra.jpg",
       "name": "Satyam Mishra",
       "role": "Member",
       "branch": "3rd Year CSE",
@@ -44,7 +44,7 @@
 
   "eventsMembers": [
     {
-      "photoUrl": "https://i.ibb.co/VTzwVkf/vaidehiganvir.jpg",
+      "photoUrl": "/teams/events/vaidehiganvir.jpg",
       "name": "Vaidehi Ganvir",
       "role": "Lead",
       "branch": "3rd Year ECE",
@@ -52,7 +52,7 @@
       "linkedinid": "https://www.linkedin.com/in/vaidehi-g-048283283/"
     },
     {
-      "photoUrl": "https://i.ibb.co/Hhhg1dp/Varadakulkarni.jpg",
+      "photoUrl": "/teams/events/Varadakulkarni.jpg",
       "name": "Varada Kulkarni",
       "role": "Member",
       "branch": "3rd Year IT",
@@ -60,7 +60,7 @@
       "linkedinid": "https://www.linkedin.com/in/varada-kulkarni-b3395a258/"
     },
     {
-      "photoUrl": "https://i.ibb.co/wWkqP20/paribhagat.jpg",
+      "photoUrl": "/teams/events/paribhagat.jpg",
       "name": " Pari Bhagat",
       "role": "Member",
       "branch": "3rd Year ECE",
@@ -71,7 +71,7 @@
 
   "socialMember": [
     {
-      "photoUrl": "https://i.ibb.co/mq0dPwJ/Saksham-Chawla.jpg",
+      "photoUrl": "/teams/social/Saksham-Chawla.jpg",
       "name": "Saksham Chawla",
       "role": "Lead",
       "branch": "3rd Year DS",
@@ -79,7 +79,7 @@
       "linkedinid": "https://www.linkedin.com/in/saksham-chawla-064838274/"
     },
     {
-      "photoUrl": "https://i.ibb.co/tPgv5QQ/Juveria-Mahreen.jpg",
+      "photoUrl": "/teams/social/Juveria-Mahreen.jpg",
       "name": "Javeria Mahreen",
       "role": "Member",
       "branch": "3rd Year DS",
@@ -89,7 +89,7 @@
   ],
   "graphicsMember": [
     {
-      "photoUrl": "https://i.ibb.co/dJyBpHV/Aishwarya-Rao.jpg",
+      "photoUrl": "/teams/graphics/Aishwarya-Rao.jpg",
       "name": "Pantula Aishwarya Rao ",
       "role": "Lead",
       "branch": "3rd Year IT",
@@ -97,7 +97,7 @@
       "linkedinid": "https://www.linkedin.com/in/aishwarya-pantula-08182328b/"
     },
     {
-      "photoUrl": "https://i.ibb.co/kJHsXJY/1c22506f-4a92-43e4-983b-0abc19930daa-Anvi-Mahajan.jpg",
+      "photoUrl": "/teams/graphics/Anvi-Mahajan.jpg",
       "name": "Anvi Mahajan",
       "role": "Member",
       "branch": "3rd Year DS",
@@ -105,7 +105,7 @@
       "linkedinid": "https://www.linkedin.com/in/anvi-mahajan-183594247"
     },
     {
-      "photoUrl": "https://i.ibb.co/GczQn5C/akshaypadia.jpg",
+      "photoUrl": "/teams/graphics/akshaypadia.jpg",
       "name": "Akshay Padia",
       "role": "Member",
       "branch": "3rd Year CSE",
@@ -113,7 +113,7 @@
       "linkedinid": "https://www.linkedin.com/in/akshay-padia-680a94276"
     },
     {
-      "photoUrl": "https://i.ibb.co/x1jStX3/shrujankarwade.jpg",
+      "photoUrl": "/teams/graphics/shrujankarwade.jpg",
       "name": "Shrujan Kharwadey",
       "role": "Member",
       "branch": "3rd Year DS",
@@ -121,7 +121,7 @@
       "linkedinid": "https://in.linkedin.com/in/shrujan-kharwadey-a9b2191ba"
     },
     {
-      "photoUrl": "https://i.ibb.co/MgVyf6w/divyanshkumbhat.jpg",
+      "photoUrl": "/teams/graphics/divyanshkumbhat.jpg",
       "name": "Divyansh Kumbhat",
       "role": "Member",
       "branch": "3rd Year AIML",
@@ -131,7 +131,7 @@
   ],
   "marketingMember": [
     {
-      "photoUrl": "https://i.ibb.co/HX7SxL1/madhujagrawal.jpg",
+      "photoUrl": "/teams/marketing/madhujagrawal.jpg",
       "name": "Madhuj Agrawal",
       "role": "Lead",
       "branch": "3rd Year CSE",
@@ -139,7 +139,7 @@
       "linkedinid": "https://www.linkedin.com/in/madhuj-agrawal-8491b328b"
     },
     {
-      "photoUrl": "https://i.ibb.co/g66mZ5N/tanayverma.png",
+      "photoUrl": "/teams/marketing/tanayverma.jpg",
       "name": "Tanay Verma",
       "role": "Member",
       "branch": "3rd Year AIML",
@@ -149,7 +149,7 @@
   ],
   "contentTeam": [
     {
-      "photoUrl": "https://i.ibb.co/2vJf2dC/gunjansharma.png",
+      "photoUrl": "/teams/content/gunjansharma.jpg",
       "name": "Gunjan Sharma",
       "role": "Lead",
       "branch": "3rd Year IT",
@@ -157,7 +157,7 @@
       "linkedinid": "https://www.linkedin.com/in/gunjan-sharma-697283211"
     },
     {
-      "photoUrl": "https://i.ibb.co/VD9kxfq/isshikajaveri.png",
+      "photoUrl": "/teams/content/isshikajaveri.jpg",
       "name": "Ishika Javeri",
       "role": "Member",
       "branch": "3rd Year AIML",
@@ -165,7 +165,7 @@
       "linkedinid": "https://www.linkedin.com/in/ishika-javeri-6b5995247/"
     },
     {
-      "photoUrl": "https://i.ibb.co/C5pQW7h/jessicasanjwani.png",
+      "photoUrl": "/teams/content/jessicasanjwani.jpg",
       "name": "Jessica Sajwani",
       "role": "Member",
       "branch": "3rd Year AIML",
@@ -175,7 +175,7 @@
   ],
   "presidents": [
     {
-      "photoUrl": "https://i.ibb.co/3Fdnx3W/ayushshete.png",
+      "photoUrl": "/teams/presidents/ayushshete.jpg",
       "name": "Ayush Shete",
       "role": "Founder",
       "branch": "CSE 2024 Batch",
@@ -183,7 +183,7 @@
       "linkedinid": "https://www.linkedin.com/in/ayushete02/"
     },
     {
-      "photoUrl": "https://i.ibb.co/nDKDfF7/diyabhagat.jpg",
+      "photoUrl": "/teams/presidents/diyabhagat.jpg",
       "name": "Diya Bhagat",
       "role": "President",
       "branch": "3rd Year AIML",
@@ -191,7 +191,7 @@
       "linkedinid": "https://www.linkedin.com/in/diya-bhagat-b261b3258"
     },
     {
-      "photoUrl": "https://i.ibb.co/KzrQ4FD/prathameshrokade.jpg",
+      "photoUrl": "/teams/presidents/prathameshrokade.jpg",
       "name": "Prathamesh Rokade",
       "role": "Vice President",
       "branch": "3rd Year AIML",
