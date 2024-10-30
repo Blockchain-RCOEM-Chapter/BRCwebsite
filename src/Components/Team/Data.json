@@ -44,7 +44,7 @@
       "photoUrl": "/teams/technical/sohelsheikh.jpg",
       "name": " Sohel Sheikh ",
       "role": "Member",
-      "branch": "2rd Year IT",
+      "branch": "2nd Year IT",
       "instaid": "https://www.instagram.com/sohel_sheikh05/#",
       "linkedinid": "https://in.linkedin.com/in/sohel-sheikh-25835129b"
     },
@@ -52,7 +52,7 @@
       "photoUrl": "/teams/technical/gunjan.jpg",
       "name": " Gunjan Ghate ",
       "role": "Member",
-      "branch": "2rd Year CSE",
+      "branch": "2nd Year CSE",
       "instaid": "https://www.instagram.com/gg._gunjann_/",
       "linkedinid": "https://in.linkedin.com/in/gunjan-ghate-6506b5288"
     },
@@ -60,7 +60,7 @@
       "photoUrl": "/teams/technical/mohdshayan.jpg",
       "name": " Mohd. Shayan Qureshi ",
       "role": "Member",
-      "branch": "2rd Year CSE",
+      "branch": "2nd Year CSE",
       "instaid": "#",
       "linkedinid": "https://in.linkedin.com/in/mohdshayan"
     },
@@ -68,7 +68,7 @@
       "photoUrl": "/teams/technical/shreyaraut.jpg",
       "name": " Shreya Raut ",
       "role": "Member",
-      "branch": "2rd Year",
+      "branch": "2nd Year AIML",
       "instaid": "https://www.instagram.com/shreyahaha_05/#",
       "linkedinid": "https://in.linkedin.com/in/shreya-raut-a7211b287"
     },
@@ -76,7 +76,7 @@
       "photoUrl": "/teams/technical/shivanshkudesia.jpg",
       "name": " Shivansh Kudesia ",
       "role": "Member",
-      "branch": "2rd Year",
+      "branch": "2nd Year",
       "instaid": "https://www.instagram.com/_shivansh_kudesia/",
       "linkedinid": "https://in.linkedin.com/in/shivansh-kudesia"
     }
@@ -110,7 +110,7 @@
       "linkedinid": "https://www.linkedin.com/in/paribhagat/"
     },
     {
-      "photoUrl": "",
+      "photoUrl": "/teams/events/ShreyashChoudhary.jpg",
       "name": "Shreyash Choudhary",
       "role": "Member",
       "branch": "2nd Year",
@@ -118,28 +118,36 @@
       "linkedinid": ""
     },
     {
-      "photoUrl": "",
+      "photoUrl": "/teams/events/Krishkolhe.jpg",
       "name": "Krish Kolhe",
       "role": "Member",
       "branch": "2nd Year",
       "instaid": "https://www.instagram.com/_krisshhhh_/",
-      "linkedinid": ""
+      "linkedinid": "https://www.linkedin.com/in/krish-kolhe-88b928328/"
     },
     {
-      "photoUrl": "",
+      "photoUrl": "/teams/events/SarthakRathi.jpg",
+      "name": "Sarthak Rathi",
+      "role": "Member",
+      "branch": "2nd Year DS",
+      "instaid": "https://www.instagram.com/sarthakrathi__04/",
+      "linkedinid": "https://www.linkedin.com/in/sarthak-rathi-22a1b7330/"
+    },
+    {
+      "photoUrl": "/teams/events/SanskrutiShukla.png",
       "name": "Sanskruti Shukla",
       "role": "Member",
-      "branch": "2nd Year",
+      "branch": "2nd Year AIML",
       "instaid": "https://www.instagram.com/the_sanskrutis/",
-      "linkedinid": ""
+      "linkedinid": "https://www.linkedin.com/in/sanskruti-shukla-6365a932b/"
     },
     {
-      "photoUrl": "",
+      "photoUrl": "/teams/events/varunbissa.jpg",
       "name": "Varun Bissa",
       "role": "Member",
-      "branch": "2nd Year",
+      "branch": "2nd Year DS",
       "instaid": "https://www.instagram.com/assiduos_one/",
-      "linkedinid": ""
+      "linkedinid": "https://www.linkedin.com/in/varun-bissa-9a0432328/"
     }
   ],
 
@@ -153,28 +161,28 @@
       "linkedinid": "https://www.linkedin.com/in/saksham-chawla-064838274/"
     },
     {
-      "photoUrl": "/teams/social/Juveria-Mahreen.jpg",
       "name": "Javeria Mahreen",
       "role": "Member",
+      "photoUrl": "/teams/social/Juveria-Mahreen.jpg",
       "branch": "3rd Year DS",
       "instaid": "https://www.instagram.com/javeria_arif_/",
       "linkedinid": "https://www.linkedin.com/in/javeria-mahreen-3111a1256/"
     },
     {
-      "photoUrl": "",
+      "photoUrl": "/teams/social/KhushikaSurana.jpg",
       "name": "Khushika Surana ",
       "role": "Member",
-      "branch": "2nd Year",
+      "branch": "2nd Year DS",
       "instaid": "https://www.instagram.com/@_.khushikaa_/",
-      "linkedinid": ""
+      "linkedinid": "https://www.linkedin.com/in/khushika-surana-b0389727a/"
     },
     {
-      "photoUrl": "",
+      "photoUrl": "/teams/social/NayanDhanorkar.jpg",
       "name": "Nayan Dhanorkar",
       "role": "Member",
-      "branch": "2nd Year",
+      "branch": "2nd Year DS",
       "instaid": "https://www.instagram.com/nayan_dhanorkar/",
-      "linkedinid": ""
+      "linkedinid": "https://www.linkedin.com/in/nayan-dhanorkar-391517289/"
     }
   ],
   "graphicsMember": [
@@ -219,28 +227,28 @@
       "linkedinid": "https://www.linkedin.com/in/divyansh-kumbhat/"
     },
     {
-      "photoUrl": "",
+      "photoUrl": "/teams/graphics/SiddhiDara.jpg",
       "name": "Siddhi Dara",
       "role": "Member",
       "branch": "2nd Year",
       "instaid": "https://www.instagram.com/siddhidara/",
-      "linkedinid": ""
+      "linkedinid": "https://www.linkedin.com/in/siddhi-dara-0469982a5/"
     },
     {
-      "photoUrl": "",
+      "photoUrl": "/teams/graphics/ShuryanshSoni.jpg",
       "name": "Suryansh Soni",
       "role": "Member",
       "branch": "2nd Year",
       "instaid": "https://www.instagram.com/suryansh_soni_005/",
-      "linkedinid": ""
+      "linkedinid": "#"
     },
     {
-      "photoUrl": "",
+      "photoUrl": "/teams/graphics/RahulPrasad.jpg",
       "name": "Rahul Prasad",
       "role": "Member",
       "branch": "2nd Year",
       "instaid": "https://www.instagram.com/rahulpr.asad/",
-      "linkedinid": ""
+      "linkedinid": "https://www.linkedin.com/in/rahul-prasad-aaa296286/"
     }
   ],
   "marketingMember": [
@@ -261,44 +269,44 @@
       "linkedinid": "https://www.linkedin.com/in/tanay-verma-41482b259"
     },
     {
-      "photoUrl": "",
+      "photoUrl": "/teams/marketing/DishaChauhan.jpg",
       "name": "Disha Chauhan",
       "role": "Member",
       "branch": "2nd Year",
       "instaid": "https://www.instagram.com/disha_chauhan75/",
-      "linkedinid": ""
+      "linkedinid": "https://www.linkedin.com/in/disha-chauhan-5489442a7/"
     },
     {
-      "photoUrl": "",
+      "photoUrl": "/teams/marketing/AkshayMundale.jpg",
       "name": "Akshay Mundle",
       "role": "Member",
       "branch": "2nd Year",
       "instaid": "https://www.instagram.com/_akshaymundle/",
-      "linkedinid": ""
+      "linkedinid": "https://www.linkedin.com/in/akshay-mundle-490a32288/"
     },
     {
-      "photoUrl": "",
+      "photoUrl": "/teams/marketing/AarushPurohit.jpg",
       "name": "Aarush Purohit",
       "role": "Member",
       "branch": "2nd Year",
       "instaid": "https://www.instagram.com/aarush_1484/",
-      "linkedinid": ""
+      "linkedinid": "https://www.linkedin.com/in/aarush-purohit-b4457431a/"
     },
     {
-      "photoUrl": "",
+      "photoUrl": "/teams/marketing/AryanGahlot.jpeg",
       "name": "Aryan Gahlot",
       "role": "Member",
-      "branch": "2nd Year",
+      "branch": "2nd Year ECE",
       "instaid": "https://www.instagram.com/__aryaannnnn__/",
-      "linkedinid": ""
+      "linkedinid": "https://www.linkedin.com/in/aryansg2/"
     },
     {
-      "photoUrl": "",
+      "photoUrl": "/teams/marketing/MaithilyPatle.jpg",
       "name": "Maithily Patle",
       "role": "Member",
-      "branch": "2nd Year",
+      "branch": "2nd Year DS",
       "instaid": "https://www.instagram.com/maithily_patle/",
-      "linkedinid": ""
+      "linkedinid": "https://www.linkedin.com/in/maithily-patle-44381b292/"
     }
   ],
   "contentTeam": [
@@ -327,36 +335,36 @@
       "linkedinid": "https://www.linkedin.com/in/jessica-sajwani-304640248/"
     },
     {
-      "photoUrl": "",
+      "photoUrl": "/teams/content/PalakDhawan.jpeg",
       "name": "Palak Dhawan",
       "role": "Member",
       "branch": "2nd Year",
       "instaid": "https://www.instagram.com/palakdhawan05/",
-      "linkedinid": ""
+      "linkedinid": "https://www.linkedin.com/in/palak-dhawan-32700a30b/"
     },
     {
-      "photoUrl": "",
+      "photoUrl": "/teams/content/AgasyaButolia.jpeg",
       "name": "Agasya Virendra Butolia",
       "role": "Member",
-      "branch": "2nd Year",
+      "branch": "2nd Year AIML",
       "instaid": "https://www.instagram.com/agasya_27/",
-      "linkedinid": ""
+      "linkedinid": "https://www.linkedin.com/in/agasya-butolia/"
     },
     {
-      "photoUrl": "",
+      "photoUrl": "/teams/content/AkshayPanpaliya.jpg",
       "name": "Akshay Panpaliya",
       "role": "Member",
-      "branch": "2nd Year",
+      "branch": "2nd Year IT",
       "instaid": "https://www.instagram.com/akshaypanpaliya1205/",
-      "linkedinid": ""
+      "linkedinid": "https://www.linkedin.com/in/akshay-panpaliya-ap1205/"
     },
     {
       "photoUrl": "",
       "name": "Khushi Goenka",
       "role": "Member",
       "branch": "2nd Year",
-      "instaid": "",
-      "linkedinid": ""
+      "instaid": "#",
+      "linkedinid": "#"
     }
   ],
   "presidents": [
