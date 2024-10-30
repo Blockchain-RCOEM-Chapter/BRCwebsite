@@ -9,7 +9,7 @@
       "linkedinid": "https://www.linkedin.com/in/apeksha-jamjar-520718258/"
     },
     {
-      "photoUrl": "/teams/technical/Aniket-raut.jpg",
+      "photoUrl": "/teams/technical/aniketraut.jpg",
       "name": "Aniket Raut",
       "role": "Website Manager",
       "branch": "3rd Year AIML",
@@ -38,7 +38,7 @@
       "role": "Member",
       "branch": "3rd Year CSE",
       "instaid": "#",
-      "linkedinid": "https://www.linkedin.com/in/a-satyam-mishra-37a75a277"
+      "linkedinid": "https://www.linkedin.com/in/satyam-mishra-37a75a277/"
     },
     {
       "photoUrl": "/teams/technical/sohelsheikh.jpg",
@@ -76,7 +76,7 @@
       "photoUrl": "/teams/technical/shivanshkudesia.jpg",
       "name": " Shivansh Kudesia ",
       "role": "Member",
-      "branch": "2nd Year",
+      "branch": "2nd Year DS",
       "instaid": "https://www.instagram.com/_shivansh_kudesia/",
       "linkedinid": "https://in.linkedin.com/in/shivansh-kudesia"
     }
@@ -90,7 +90,7 @@
       "name": "Vaidehi Ganvir",
       "role": "Lead",
       "branch": "3rd Year ECE",
-      "instaid": "https://www.instagram.com/_rivaa2902__/",
+      "instaid": "https://www.instagram.com/_rivaa29__/",
       "linkedinid": "https://www.linkedin.com/in/vaidehi-g-048283283/"
     },
     {
@@ -98,7 +98,7 @@
       "name": "Varada Kulkarni",
       "role": "Member",
       "branch": "3rd Year IT",
-      "instaid": "https://www.instagram.com/vark278/",
+      "instaid": "#",
       "linkedinid": "https://www.linkedin.com/in/varada-kulkarni-b3395a258/"
     },
     {
@@ -113,9 +113,9 @@
       "photoUrl": "/teams/events/ShreyashChoudhary.jpg",
       "name": "Shreyash Choudhary",
       "role": "Member",
-      "branch": "2nd Year",
+      "branch": "2nd Year AIML",
       "instaid": "https://www.instagram.com/shre_yyy_/",
-      "linkedinid": ""
+      "linkedinid": "#"
     },
     {
       "photoUrl": "/teams/events/Krishkolhe.jpg",
@@ -124,14 +124,6 @@
       "branch": "2nd Year",
       "instaid": "https://www.instagram.com/_krisshhhh_/",
       "linkedinid": "https://www.linkedin.com/in/krish-kolhe-88b928328/"
-    },
-    {
-      "photoUrl": "/teams/events/SarthakRathi.jpg",
-      "name": "Sarthak Rathi",
-      "role": "Member",
-      "branch": "2nd Year DS",
-      "instaid": "https://www.instagram.com/sarthakrathi__04/",
-      "linkedinid": "https://www.linkedin.com/in/sarthak-rathi-22a1b7330/"
     },
     {
       "photoUrl": "/teams/events/SanskrutiShukla.png",
@@ -153,7 +145,7 @@
 
   "socialMember": [
     {
-      "photoUrl": "/teams/social/Saksham-Chawla.jpg",
+      "photoUrl": "/teams/social/sakshamchawla.jpg",
       "name": "Saksham Chawla",
       "role": "Lead",
       "branch": "3rd Year DS",
@@ -173,7 +165,7 @@
       "name": "Khushika Surana ",
       "role": "Member",
       "branch": "2nd Year DS",
-      "instaid": "https://www.instagram.com/@_.khushikaa_/",
+      "instaid": "https://www.instagram.com/_.khushikaa_/",
       "linkedinid": "https://www.linkedin.com/in/khushika-surana-b0389727a/"
     },
     {
@@ -182,12 +174,12 @@
       "role": "Member",
       "branch": "2nd Year DS",
       "instaid": "https://www.instagram.com/nayan_dhanorkar/",
-      "linkedinid": "https://www.linkedin.com/in/nayan-dhanorkar-391517289/"
+      "linkedinid": "https://www.linkedin.com/in/nayan-dhanorkar-391517289"
     }
   ],
   "graphicsMember": [
     {
-      "photoUrl": "/teams/graphics/Aishwarya-Rao.jpg",
+      "photoUrl": "/teams/graphics/pantularoa.jpg",
       "name": "Pantula Aishwarya Rao ",
       "role": "Lead",
       "branch": "3rd Year IT",
@@ -238,7 +230,7 @@
       "photoUrl": "/teams/graphics/ShuryanshSoni.jpg",
       "name": "Suryansh Soni",
       "role": "Member",
-      "branch": "2nd Year",
+      "branch": "2nd Year DS",
       "instaid": "https://www.instagram.com/suryansh_soni_005/",
       "linkedinid": "#"
     },
@@ -246,7 +238,7 @@
       "photoUrl": "/teams/graphics/RahulPrasad.jpg",
       "name": "Rahul Prasad",
       "role": "Member",
-      "branch": "2nd Year",
+      "branch": "2nd Year CSE",
       "instaid": "https://www.instagram.com/rahulpr.asad/",
       "linkedinid": "https://www.linkedin.com/in/rahul-prasad-aaa296286/"
     }
@@ -272,7 +264,7 @@
       "photoUrl": "/teams/marketing/DishaChauhan.jpg",
       "name": "Disha Chauhan",
       "role": "Member",
-      "branch": "2nd Year",
+      "branch": "2nd Year AIML",
       "instaid": "https://www.instagram.com/disha_chauhan75/",
       "linkedinid": "https://www.linkedin.com/in/disha-chauhan-5489442a7/"
     },
@@ -280,7 +272,7 @@
       "photoUrl": "/teams/marketing/AkshayMundale.jpg",
       "name": "Akshay Mundle",
       "role": "Member",
-      "branch": "2nd Year",
+      "branch": "2nd Year AIML",
       "instaid": "https://www.instagram.com/_akshaymundle/",
       "linkedinid": "https://www.linkedin.com/in/akshay-mundle-490a32288/"
     },
@@ -288,7 +280,7 @@
       "photoUrl": "/teams/marketing/AarushPurohit.jpg",
       "name": "Aarush Purohit",
       "role": "Member",
-      "branch": "2nd Year",
+      "branch": "2nd Year ECS",
       "instaid": "https://www.instagram.com/aarush_1484/",
       "linkedinid": "https://www.linkedin.com/in/aarush-purohit-b4457431a/"
     },
@@ -338,7 +330,7 @@
       "photoUrl": "/teams/content/PalakDhawan.jpeg",
       "name": "Palak Dhawan",
       "role": "Member",
-      "branch": "2nd Year",
+      "branch": "2nd Year IT",
       "instaid": "https://www.instagram.com/palakdhawan05/",
       "linkedinid": "https://www.linkedin.com/in/palak-dhawan-32700a30b/"
     },
